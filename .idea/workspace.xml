@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a157e0d-c8ff-49e3-b15f-38e3b59cada1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/.codecov.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TextRecogDataGen/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/background_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/computer_text_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/dicts/cn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/dicts/de.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/dicts/en.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/dicts/es.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/dicts/fr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/distorsion_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/cn/SourceHanSans-Normal.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/AllerDisplay.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Aller_Bd.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Aller_BdIt.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Aller_It.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Aller_Lt.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Aller_LtIt.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Aller_Rg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Amatic-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/AmaticSC-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/BEBAS___.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Capture_it.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Capture_it_2.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/CaviarDreams.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/CaviarDreams_BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/CaviarDreams_Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Caviar_Dreams_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/DroidSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/DroidSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/FFF_Tusj.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Hairline.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-HairlineItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Heavy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-HeavyItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-SemiboldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Lato-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/OpenSans-SemiboldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Pacifico.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Raleway-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/RobotoCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/RobotoCondensed-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/RobotoCondensed-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/RobotoCondensed-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/RobotoCondensed-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/RobotoCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/SEASRN__.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Sansation-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Sansation-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Sansation-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Sansation-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Sansation-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Sansation-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Oblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Oblique_Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Oblique_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Oblique_SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_Oblique_UltraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/fonts/latin/Walkway_UltraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/handwritten_model/model-29.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/handwritten_model/model-29.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/handwritten_model/model-29.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/handwritten_model/translation.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/handwritten_text_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/pictures/bricks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/pictures/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/pictures/containers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/pictures/water.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/string_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/texts/random_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/texts/random_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/texts/random_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/TextRecognitionDataGenerator/texts/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/requirements-hw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TextRecogDataGen/requirements-hw.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TextRecogDataGen/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextRecogDataGen/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextRecogDataGen/tests/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TextRecogDataGen/tests/test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TextRecogDataGen" />
+  </component>
+  <component name="ProjectId" id="1WNj4gSbYjcKGFE7q6GF6aVt6ui" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Python.test2">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="project_folder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/OCRtestT/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TextRecogDataGen/TextRecogDataGen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TextRecogDataGen/TextRecogDataGen/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="raw_index_plot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="project_folder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/test/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TextRecogDataGen/TextRecogDataGen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TextRecogDataGen/raw_index_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="project_folder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/OCRtestT/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TextRecogDataGen/TextRecogDataGen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TextRecogDataGen/TextRecogDataGen/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="project_folder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/test/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TextRecogDataGen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TextRecogDataGen/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="project_folder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/envs/OCRtestT/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TextRecogDataGen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TextRecogDataGen/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.raw_index_plot" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.temp" />
+      <item itemvalue="Python.test2" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a157e0d-c8ff-49e3-b15f-38e3b59cada1" name="Default Changelist" comment="" />
+      <created>1578996756826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578996756826</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="297" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581929070198">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="521" y="297" key="#com.intellij.execution.impl.EditConfigurationsDialog/-410.-1417.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1581929070198" />
+    <state x="334" y="-1058" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1579084709014" />
+    <state x="521" y="297" key="#com.intellij.execution.impl.EditConfigurationsDialog/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1579500545607" />
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581751102751">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1581751102751" />
+    <state x="622" y="-857" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578997664471">
+      <screen x="-410" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="622" y="-857" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1578997664471" />
+    <state width="2539" height="226" key="GridCell.Tab.0.bottom" timestamp="1582020982669">
+      <screen x="0" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1771" height="284" key="GridCell.Tab.0.bottom/-410.-1417.2560.1337/0.23.1792.1097@-410.-1417.2560.1337" timestamp="1579178167805" />
+    <state width="1771" height="327" key="GridCell.Tab.0.bottom/-410.-1417.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1581929073060" />
+    <state width="1771" height="246" key="GridCell.Tab.0.bottom/-410.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1580893224445" />
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom/-410.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1581591280957" />
+    <state width="1771" height="246" key="GridCell.Tab.0.bottom/-410.-1417.2560.1417/0.23.1792.1036@-410.-1417.2560.1417" timestamp="1581317149393" />
+    <state width="1413" height="370" key="GridCell.Tab.0.bottom/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1581665672376" />
+    <state width="1771" height="391" key="GridCell.Tab.0.bottom/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678077" />
+    <state width="2539" height="423" key="GridCell.Tab.0.bottom/-410.-1440.2560.1440/0.23.1792.1097@-410.-1440.2560.1440" timestamp="1579073903409" />
+    <state width="847" height="370" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1581749420285" />
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1581486930877" />
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1581522793076" />
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1581521998517" />
+    <state width="1771" height="246" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1581344119628" />
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1036@0.23.1792.1036" timestamp="1581656402211" />
+    <state width="2539" height="226" key="GridCell.Tab.0.bottom/0.23.1792.1097/0.-1440.2560.1440@0.-1440.2560.1440" timestamp="1582020982669" />
+    <state width="2539" height="226" key="GridCell.Tab.0.center" timestamp="1582020982668">
+      <screen x="0" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1771" height="284" key="GridCell.Tab.0.center/-410.-1417.2560.1337/0.23.1792.1097@-410.-1417.2560.1337" timestamp="1579178167804" />
+    <state width="1771" height="327" key="GridCell.Tab.0.center/-410.-1417.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1581929073059" />
+    <state width="1771" height="246" key="GridCell.Tab.0.center/-410.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1580893224445" />
+    <state width="1771" height="245" key="GridCell.Tab.0.center/-410.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1581591280956" />
+    <state width="1771" height="246" key="GridCell.Tab.0.center/-410.-1417.2560.1417/0.23.1792.1036@-410.-1417.2560.1417" timestamp="1581317149393" />
+    <state width="1413" height="370" key="GridCell.Tab.0.center/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1581665672375" />
+    <state width="1771" height="391" key="GridCell.Tab.0.center/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678075" />
+    <state width="2539" height="423" key="GridCell.Tab.0.center/-410.-1440.2560.1440/0.23.1792.1097@-410.-1440.2560.1440" timestamp="1579073903408" />
+    <state width="847" height="370" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1581749420284" />
+    <state width="1771" height="245" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1581486930876" />
+    <state width="1771" height="245" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1581522793076" />
+    <state width="1771" height="245" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1581521998517" />
+    <state width="1771" height="246" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1581344119627" />
+    <state width="1771" height="245" key="GridCell.Tab.0.center/0.23.1792.1036@0.23.1792.1036" timestamp="1581656402211" />
+    <state width="2539" height="226" key="GridCell.Tab.0.center/0.23.1792.1097/0.-1440.2560.1440@0.-1440.2560.1440" timestamp="1582020982668" />
+    <state width="2539" height="226" key="GridCell.Tab.0.left" timestamp="1582020982667">
+      <screen x="0" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1771" height="284" key="GridCell.Tab.0.left/-410.-1417.2560.1337/0.23.1792.1097@-410.-1417.2560.1337" timestamp="1579178167804" />
+    <state width="1771" height="327" key="GridCell.Tab.0.left/-410.-1417.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1581929073058" />
+    <state width="1771" height="246" key="GridCell.Tab.0.left/-410.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1580893224444" />
+    <state width="1771" height="245" key="GridCell.Tab.0.left/-410.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1581591280956" />
+    <state width="1771" height="246" key="GridCell.Tab.0.left/-410.-1417.2560.1417/0.23.1792.1036@-410.-1417.2560.1417" timestamp="1581317149392" />
+    <state width="1413" height="370" key="GridCell.Tab.0.left/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1581665672375" />
+    <state width="1771" height="391" key="GridCell.Tab.0.left/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678074" />
+    <state width="2539" height="423" key="GridCell.Tab.0.left/-410.-1440.2560.1440/0.23.1792.1097@-410.-1440.2560.1440" timestamp="1579073903407" />
+    <state width="847" height="370" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1581749420284" />
+    <state width="1771" height="245" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1581486930875" />
+    <state width="1771" height="245" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1581522793075" />
+    <state width="1771" height="245" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1581521998517" />
+    <state width="1771" height="246" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1581344119627" />
+    <state width="1771" height="245" key="GridCell.Tab.0.left/0.23.1792.1036@0.23.1792.1036" timestamp="1581656402211" />
+    <state width="2539" height="226" key="GridCell.Tab.0.left/0.23.1792.1097/0.-1440.2560.1440@0.-1440.2560.1440" timestamp="1582020982667" />
+    <state width="2539" height="226" key="GridCell.Tab.0.right" timestamp="1582020982669">
+      <screen x="0" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1771" height="284" key="GridCell.Tab.0.right/-410.-1417.2560.1337/0.23.1792.1097@-410.-1417.2560.1337" timestamp="1579178167805" />
+    <state width="1771" height="327" key="GridCell.Tab.0.right/-410.-1417.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1581929073060" />
+    <state width="1771" height="246" key="GridCell.Tab.0.right/-410.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1580893224445" />
+    <state width="1771" height="245" key="GridCell.Tab.0.right/-410.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1581591280957" />
+    <state width="1771" height="246" key="GridCell.Tab.0.right/-410.-1417.2560.1417/0.23.1792.1036@-410.-1417.2560.1417" timestamp="1581317149393" />
+    <state width="1413" height="370" key="GridCell.Tab.0.right/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1581665672376" />
+    <state width="1771" height="391" key="GridCell.Tab.0.right/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678076" />
+    <state width="2539" height="423" key="GridCell.Tab.0.right/-410.-1440.2560.1440/0.23.1792.1097@-410.-1440.2560.1440" timestamp="1579073903409" />
+    <state width="847" height="370" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1581749420284" />
+    <state width="1771" height="245" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1581486930876" />
+    <state width="1771" height="245" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1581522793076" />
+    <state width="1771" height="245" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1581521998517" />
+    <state width="1771" height="246" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1581344119627" />
+    <state width="1771" height="245" key="GridCell.Tab.0.right/0.23.1792.1036@0.23.1792.1036" timestamp="1581656402211" />
+    <state width="2539" height="226" key="GridCell.Tab.0.right/0.23.1792.1097/0.-1440.2560.1440@0.-1440.2560.1440" timestamp="1582020982669" />
+    <state width="1771" height="391" key="GridCell.Tab.1.bottom" timestamp="1581084117375">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1771" height="391" key="GridCell.Tab.1.bottom/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678079" />
+    <state width="1771" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1579707198894" />
+    <state width="1771" height="391" key="GridCell.Tab.1.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1581084117375" />
+    <state width="1771" height="391" key="GridCell.Tab.1.center" timestamp="1581084117375">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1771" height="391" key="GridCell.Tab.1.center/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678078" />
+    <state width="1771" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1579707198893" />
+    <state width="1771" height="391" key="GridCell.Tab.1.center/0.23.1792.1031@0.23.1792.1031" timestamp="1581084117375" />
+    <state width="1771" height="391" key="GridCell.Tab.1.left" timestamp="1581084117374">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1771" height="391" key="GridCell.Tab.1.left/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678077" />
+    <state width="1771" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1579707198893" />
+    <state width="1771" height="391" key="GridCell.Tab.1.left/0.23.1792.1031@0.23.1792.1031" timestamp="1581084117374" />
+    <state width="1771" height="391" key="GridCell.Tab.1.right" timestamp="1581084117375">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1771" height="391" key="GridCell.Tab.1.right/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580896678079" />
+    <state width="1771" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1579707198894" />
+    <state width="1771" height="391" key="GridCell.Tab.1.right/0.23.1792.1031@0.23.1792.1031" timestamp="1581084117375" />
+    <state x="552" y="279" key="SettingsEditor" timestamp="1579426182172">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="379" y="-1081" key="SettingsEditor/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1578999685879" />
+    <state x="552" y="279" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1579426182172" />
+    <state width="896" height="560" key="XDebugger.FullValuePopup" timestamp="1580979511250">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="896" height="560" key="XDebugger.FullValuePopup/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1580979511250" />
+    <state width="896" height="560" key="XDebugger.FullValuePopup/0.0.1792.1120@0.0.1792.1120" timestamp="1580824253120" />
+    <state x="681" y="429" key="com.intellij.ide.util.TipDialog" timestamp="1582103182467">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="681" y="418" key="com.intellij.ide.util.TipDialog/-410.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1581656625468" />
+    <state x="563" y="-888" key="com.intellij.ide.util.TipDialog/-410.-1440.2560.1440/0.0.1792.1120@-410.-1440.2560.1440" timestamp="1579073076481" />
+    <state x="681" y="429" key="com.intellij.ide.util.TipDialog/-410.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1579859701917" />
+    <state x="681" y="429" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1582103182467" />
+    <state x="681" y="418" key="com.intellij.ide.util.TipDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1581482544349" />
+    <state x="681" y="429" key="com.intellij.ide.util.TipDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1581751158983" />
+    <state x="679" y="484" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580829298244">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="679" y="484" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1580829298244" />
+    <state x="561" y="254" width="670" height="623" key="search.everywhere.popup" timestamp="1581520377687">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1580829310403" />
+    <state x="561" y="254" width="670" height="623" key="search.everywhere.popup/0.23.1792.1031@0.23.1792.1031" timestamp="1581520377687" />
+  </component>
+</project>

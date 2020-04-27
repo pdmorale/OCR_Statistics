@@ -1,0 +1,4 @@
+
+ Missing modules for handwritten text generation.
+
+ Missing modules for handwritten text generation.

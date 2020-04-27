@@ -1,0 +1,3590 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "AvalonEdit/5.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/_._": {}
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
+        }
+      },
+      "BouncyCastle/1.8.5": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Castle.Core/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {}
+        }
+      },
+      "ClosedXML/0.87.1": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.5.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/ClosedXML.dll": {}
+        }
+      },
+      "CsvHelper/2.13.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/_._": {}
+        },
+        "runtime": {
+          "lib/net40-client/CsvHelper.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "Extended.Wpf.Toolkit/2.8.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.DataGrid.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Humanizer.Core/2.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
+      "interop.domino.dll/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Interop.Domino.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Client/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http",
+          "System.Net.Http.WebRequest"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/_._": {}
+        },
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {},
+          "lib/40/Microsoft.Exchange.WebServices.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.20": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "frameworkAssemblies": [
+          "System.Net",
+          "System.Net.Http",
+          "System.Net.Http.WebRequest",
+          "System.Runtime",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.OLE.Interop/7.10.6071": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NPOI/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpZipLib": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/NPOI.OOXML.dll": {},
+          "lib/net45/NPOI.OpenXml4Net.dll": {},
+          "lib/net45/NPOI.OpenXmlFormats.dll": {},
+          "lib/net45/NPOI.dll": {}
+        }
+      },
+      "RestSharp/106.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "SharpZipLib/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "UiPath/20.2.7348.30662-preview": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/UiPath.Interop.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "UiPath.CefSharpBundle/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/CefSharp.Core.dll": {},
+          "lib/net452/CefSharp.Wpf.dll": {},
+          "lib/net452/CefSharp.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "UiPath.Excel.Activities/2.7.2": {
+        "type": "package",
+        "dependencies": {
+          "ClosedXML": "0.87.1",
+          "CsvHelper": "2.13.5",
+          "DocumentFormat.OpenXml": "2.5.0",
+          "Microsoft.VisualStudio.OLE.Interop": "7.10.6071",
+          "NPOI": "2.4.1",
+          "SharpZipLib": "1.0.0"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Excel.Activities.Design.dll": {},
+          "lib/net461/UiPath.Excel.Activities.dll": {},
+          "lib/net461/UiPath.Excel.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Excel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Excel.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Excel.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Excel.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Excel.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Excel.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Excel.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Excel.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Excel.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Excel.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Excel.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Excel.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Excel.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Excel.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Excel.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Excel.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Excel.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.Form.Activities/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "4.3.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.1",
+          "UiPath.FormActivityLibrary": "1.0.1"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Callout.Activity.Design.dll": {},
+          "lib/net461/UiPath.Callout.Activity.dll": {},
+          "lib/net461/UiPath.Callout.dll": {},
+          "lib/net461/UiPath.Form.Activities.Design.dll": {},
+          "lib/net461/UiPath.Form.Activities.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Callout.Activity.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Callout.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Form.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Callout.Activity.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Callout.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Form.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Callout.Activity.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Callout.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Form.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Callout.Activity.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Callout.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Form.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Callout.Activity.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Callout.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Form.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Callout.Activity.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Callout.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Form.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Callout.Activity.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Callout.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Form.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Callout.Activity.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Callout.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Form.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Callout.Activity.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Callout.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Form.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Callout.Activity.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Callout.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Form.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Callout.Activity.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Callout.Activity.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Callout.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Form.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Form.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.FormActivityLibrary/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.ValueTuple": "4.5.0",
+          "UiPath.CefSharpBundle": "1.0.1",
+          "UiPath.FormActivityLibrary.Contracts": "1.0.0"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Form.ActivityLibrary.dll": {},
+          "lib/net461/UiPath.Form.Host.Local.dll": {},
+          "lib/net461/UiPath.Form.dll": {},
+          "lib/net461/UiPath.OutOfProcessUi.Common.dll": {},
+          "lib/net461/UiPath.OutOfProcessUi.Host.WCF.exe": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Form.Host.Local.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.FormActivityLibrary.Contracts/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/UiPath.Form.ActivityLibrary.Contracts.dll": {}
+        }
+      },
+      "UiPath.Mail.Activities/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle": "1.8.5",
+          "Microsoft.Exchange.WebServices": "2.2.0",
+          "System.ValueTuple": "4.5.0",
+          "interop.domino.dll": "1.0.0"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/MailKit.dll": {},
+          "lib/net461/MimeKit.dll": {},
+          "lib/net461/UiPath.Mail.Activities.Design.dll": {},
+          "lib/net461/UiPath.Mail.Activities.dll": {},
+          "lib/net461/UiPath.Mail.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Mail.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Mail.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Mail.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Mail.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Mail.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Mail.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Mail.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Mail.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Mail.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Mail.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Mail.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Mail.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Mail.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Mail.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Mail.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Mail.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Mail.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Mail.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.OCR.Contracts/2.5.0-preview": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/UiPath.OCR.Contracts.dll": {}
+        }
+      },
+      "UiPath.OmniPage.Activities/1.4.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath.OCR.Contracts": "2.4.0-preview",
+          "UiPath.OmniPage.Bundle": "1.0.1"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.OmniPage.Activities.Design.dll": {},
+          "lib/net452/UiPath.OmniPage.Activities.dll": {},
+          "lib/net452/UiPath.OmniPage.Host32.exe": {},
+          "lib/net452/UiPath.Vision.OmniPage.Core.dll": {},
+          "lib/net452/UiPath.Vision.OmniPage.dll": {}
+        },
+        "resource": {
+          "lib/net452/de/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/de/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/es-MX/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net452/es-MX/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net452/es/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net452/es/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net452/fr/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/ja/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ko/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net452/ko/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net452/pt-BR/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net452/pt-BR/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net452/pt/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net452/pt/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net452/ru/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/ru/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/tr/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net452/tr/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net452/zh-CN/UiPath.OmniPage.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net452/zh-CN/UiPath.OmniPage.Activities.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.OmniPage.Bundle/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/Nuance.OmniPage.CSDK.ArgTypes.dll": {},
+          "lib/net452/Nuance.OmniPage.CSDK.CAPI.dll": {},
+          "lib/net452/Nuance.OmniPage.CSDK.Objects.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "UiPath.OmniPage.Bundle.Extended/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/Nuance.OmniPage.CSDK.ArgTypes.dll": {},
+          "lib/net452/Nuance.OmniPage.CSDK.CAPI.dll": {},
+          "lib/net452/Nuance.OmniPage.CSDK.Objects.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "UiPath.Python.Activities/1.1.6863.33404": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.Python.Activities.Design.dll": {},
+          "lib/net452/UiPath.Python.Activities.dll": {},
+          "lib/net452/UiPath.Python.Host.exe": {},
+          "lib/net452/UiPath.Python.Host32.exe": {},
+          "lib/net452/UiPath.Python.dll": {}
+        },
+        "resource": {
+          "lib/net452/de/UiPath.Python.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/de/UiPath.Python.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/de/UiPath.Python.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/fr/UiPath.Python.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Python.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Python.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/ja/UiPath.Python.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Python.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Python.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "UiPath.System.Activities/20.2.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "CsvHelper": "2.13.5",
+          "Microsoft.AspNet.SignalR.Client": "2.4.0",
+          "Microsoft.Rest.ClientRuntime": "2.3.20",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/ActiproSoftware.Docking.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Ribbon.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Shared.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Text.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Wizard.Wpf.dll": {},
+          "lib/net461/CustomInputForm.exe": {},
+          "lib/net461/UiPath.OrchestratorClient.dll": {},
+          "lib/net461/UiPath.System.Activities.Design.dll": {},
+          "lib/net461/UiPath.System.Activities.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.System.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.System.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.System.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.System.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.System.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.System.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.System.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.System.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.System.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.System.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.System.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.System.Activities.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.UIAutomation.Activities/20.2.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "5.0.3",
+          "Extended.Wpf.Toolkit": "2.8.0",
+          "Humanizer.Core": "2.4.2",
+          "Newtonsoft.Json": "11.0.2",
+          "UiPath": "20.2.7348.30662-preview",
+          "UiPath.OCR.Contracts": "2.5.0-preview",
+          "UiPath.Vision": "2.0.1"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Docking.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Editors.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Ribbon.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Shared.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Text.Wpf.dll": {},
+          "lib/net461/ActiproSoftware.Wizard.Wpf.dll": {},
+          "lib/net461/UiPath.CV.Activities.Design.dll": {},
+          "lib/net461/UiPath.CV.Activities.dll": {},
+          "lib/net461/UiPath.CV.dll": {},
+          "lib/net461/UiPath.UIAutomation.Activities.Design.dll": {},
+          "lib/net461/UiPath.UiAutomation.Activities.dll": {},
+          "lib/net461/UiPath.Wizards.dll": {}
+        },
+        "resource": {
+          "lib/net461/de/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.CV.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.CV.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/de/UiPath.Wizards.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net461/es-MX/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.CV.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.CV.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es-MX/UiPath.Wizards.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net461/es/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.CV.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.CV.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/es/UiPath.Wizards.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net461/fr/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.CV.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.CV.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/fr/UiPath.Wizards.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net461/ja/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.CV.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.CV.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ja/UiPath.Wizards.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net461/ko/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.CV.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.CV.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/ko/UiPath.Wizards.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net461/pt-BR/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.CV.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.CV.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt-BR/UiPath.Wizards.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net461/pt/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.CV.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.CV.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/pt/UiPath.Wizards.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net461/ru/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.CV.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.CV.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/ru/UiPath.Wizards.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net461/tr/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.CV.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.CV.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/tr/UiPath.Wizards.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net461/zh-CN/UiPath.CV.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.CV.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.CV.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net461/zh-CN/UiPath.Wizards.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "UiPath.Vision/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.OCR.Contracts": "2.2.1"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.Vision.Core.dll": {},
+          "lib/net452/UiPath.Vision.dll": {}
+        }
+      },
+      "UiPath.WebAPI.Activities/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "5.0.3",
+          "Newtonsoft.Json": "11.0.2",
+          "RestSharp": "106.3.1"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.Web.Activities.Design.dll": {},
+          "lib/net452/UiPath.Web.Activities.dll": {},
+          "lib/net452/UiPath.Web.dll": {}
+        },
+        "resource": {
+          "lib/net452/de/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/de/UiPath.Web.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/de/UiPath.Web.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net452/es-MX/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net452/es-MX/UiPath.Web.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net452/es-MX/UiPath.Web.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net452/es/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net452/es/UiPath.Web.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net452/es/UiPath.Web.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net452/fr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Web.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/fr/UiPath.Web.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net452/ja/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Web.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ja/UiPath.Web.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net452/ko/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net452/ko/UiPath.Web.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net452/ko/UiPath.Web.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net452/pt-BR/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net452/pt-BR/UiPath.Web.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net452/pt-BR/UiPath.Web.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net452/pt/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net452/pt/UiPath.Web.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net452/pt/UiPath.Web.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net452/ru/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/ru/UiPath.Web.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/ru/UiPath.Web.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net452/tr/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net452/tr/UiPath.Web.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net452/tr/UiPath.Web.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net452/zh-CN/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net452/zh-CN/UiPath.Web.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net452/zh-CN/UiPath.Web.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AvalonEdit/5.0.3": {
+      "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
+      "type": "package",
+      "path": "avalonedit/5.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "avalonedit.5.0.3.nupkg.sha512",
+        "avalonedit.nuspec",
+        "lib/Net35/ICSharpCode.AvalonEdit.dll",
+        "lib/Net35/ICSharpCode.AvalonEdit.xml",
+        "lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "lib/Net40/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "BouncyCastle/1.8.5": {
+      "sha512": "196QWfvglefGd/Cr2C4hIdmA9HYkLFZovxJ7L0BAOFlNn+qlmVxqpxpcKGoC5AF4rOuoUq3ylzLgKZW5j4nmDQ==",
+      "type": "package",
+      "path": "bouncycastle/1.8.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bouncycastle.1.8.5.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "Castle.Core/4.3.1": {
+      "sha512": "8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
+      "type": "package",
+      "path": "castle.core/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle.core.4.3.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40/Castle.Core.dll",
+        "lib/net40/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/netstandard1.3/Castle.Core.dll",
+        "lib/netstandard1.3/Castle.Core.xml",
+        "lib/netstandard1.5/Castle.Core.dll",
+        "lib/netstandard1.5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "ClosedXML/0.87.1": {
+      "sha512": "2LC0T8bu2G2kt34C4Ig87uZfrRO4MwMVI54e2To7m3DvwAs2Z2Ir86WQuUoW8Txo1uNGSfmu3DpfpQhSX0bIww==",
+      "type": "package",
+      "path": "closedxml/0.87.1",
+      "files": [
+        ".nupkg.metadata",
+        "closedxml.0.87.1.nupkg.sha512",
+        "closedxml.nuspec",
+        "lib/net35/ClosedXML.dll",
+        "lib/net35/ClosedXML.pdb",
+        "lib/net35/ClosedXML.xml",
+        "lib/net40/ClosedXML.dll",
+        "lib/net40/ClosedXML.pdb",
+        "lib/net40/ClosedXML.xml"
+      ]
+    },
+    "CsvHelper/2.13.5": {
+      "sha512": "fC8DPi/YTcZ8uXFiAeuT9EpsR2TE5cSJ2jg/4tht/Oen6az/djebpYoCQEtI33RfNrSZ533SedOknlWtUTX3fw==",
+      "type": "package",
+      "path": "csvhelper/2.13.5",
+      "files": [
+        ".nupkg.metadata",
+        "csvhelper.2.13.5.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net20/CsvHelper.dll",
+        "lib/net20/CsvHelper.pdb",
+        "lib/net20/CsvHelper.xml",
+        "lib/net35-client/CsvHelper.dll",
+        "lib/net35-client/CsvHelper.pdb",
+        "lib/net35-client/CsvHelper.xml",
+        "lib/net40-client/CsvHelper.dll",
+        "lib/net40-client/CsvHelper.pdb",
+        "lib/net40-client/CsvHelper.xml",
+        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll",
+        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.pdb",
+        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml/2.5.0": {
+      "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
+      "type": "package",
+      "path": "documentformat.openxml/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        "documentformat.openxml.2.5.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "lib/DocumentFormat.OpenXml.dll"
+      ]
+    },
+    "Extended.Wpf.Toolkit/2.8.0": {
+      "sha512": "wKjJl4sDyXTVzgiKTBTw8jT0/3OwpEklQuWGe1Nz2HX0joiBeUzIurY2mnERni+8XHwateRcuks6yk/cuR22fA==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/2.8.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extended.wpf.toolkit.2.8.0.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net35/WPFToolkit.dll",
+        "lib/net35/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.DataGrid.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "Humanizer.Core/2.4.2": {
+      "sha512": "1ZKy7LHVYuhmM398hpvyWCcc2Fcx+hqiGYASELDthjWhVrsA6IabYnHRfkQFF6nGG6x4fA1D0StDX/U2Pj+FdQ==",
+      "type": "package",
+      "path": "humanizer.core/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.4.2.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml"
+      ]
+    },
+    "interop.domino.dll/1.0.0": {
+      "sha512": "gKTX8fwrysbgSWSrJUpMpdp/qmRwYT8JTnbpFzTN72WnX3M1vxkHzpxH3oGMSqpHf20n9AZ0TzDJkt2itp6hyQ==",
+      "type": "package",
+      "path": "interop.domino.dll/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "interop.domino.dll.1.0.0.nupkg.sha512",
+        "interop.domino.dll.nuspec",
+        "lib/Interop.Domino.dll"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.Client/2.4.0": {
+      "sha512": "xGoQq9dEsBU49U1Whl0To2JyRQePmo8ayYS8VNruLlQaX+fQBzYyLJeMlW9r7mlt8Vc9JP+083m9pKrfYpdDbg==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.client/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.xml",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.xml",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.xml",
+        "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.xml",
+        "microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
+        "microsoft.aspnet.signalr.client.nuspec"
+      ]
+    },
+    "Microsoft.Exchange.WebServices/2.2.0": {
+      "sha512": "NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
+      "type": "package",
+      "path": "microsoft.exchange.webservices/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "doc/License Terms.rtf",
+        "doc/README.htm",
+        "doc/Redist.txt",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.xml",
+        "lib/40/Microsoft.Exchange.WebServices.dll",
+        "lib/40/Microsoft.Exchange.WebServices.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.xml",
+        "microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+        "microsoft.exchange.webservices.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.20": {
+      "sha512": "bw/H1nO4JdnhTagPHWIFQwtlQ6rb2jqw5RTrqPsPqzrjhJxc7P6MyNGdf4pgHQdzdpBSNOfZTEQifoUkxmzYXQ==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.xml",
+        "lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net461/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net461/Microsoft.Rest.ClientRuntime.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.xml",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.xml",
+        "microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.OLE.Interop/7.10.6071": {
+      "sha512": "PuINhJH41DbKfkNU+qcyC4Wlt/z0DgI/ViZv6gjUclylnFbUIpCdqm4fK+PKJDfiarHTKnGWkxjKuOIS1Bqs5Q==",
+      "type": "package",
+      "path": "microsoft.visualstudio.ole.interop/7.10.6071",
+      "files": [
+        ".nupkg.metadata",
+        "lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/Microsoft.VisualStudio.OLE.Interop.xml",
+        "microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
+        "microsoft.visualstudio.ole.interop.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "NPOI/2.4.1": {
+      "sha512": "85790/CY9z4DCU1KLpcdLSqaqaqmQOenTqXJfcsYK8LIKNAAoTgjT5LYLbORgdwAd63sbaJiCfB1SIn/dAXrJw==",
+      "type": "package",
+      "path": "npoi/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE",
+        "Read Me.txt",
+        "lib/NPOI.xml",
+        "lib/net40/NPOI.OOXML.dll",
+        "lib/net40/NPOI.OpenXml4Net.dll",
+        "lib/net40/NPOI.OpenXmlFormats.dll",
+        "lib/net40/NPOI.dll",
+        "lib/net45/NPOI.OOXML.dll",
+        "lib/net45/NPOI.OpenXml4Net.dll",
+        "lib/net45/NPOI.OpenXmlFormats.dll",
+        "lib/net45/NPOI.dll",
+        "lib/netstandard2.0/NPOI.OOXML.deps.json",
+        "lib/netstandard2.0/NPOI.OOXML.dll",
+        "lib/netstandard2.0/NPOI.OpenXml4Net.deps.json",
+        "lib/netstandard2.0/NPOI.OpenXml4Net.dll",
+        "lib/netstandard2.0/NPOI.OpenXmlFormats.deps.json",
+        "lib/netstandard2.0/NPOI.OpenXmlFormats.dll",
+        "lib/netstandard2.0/NPOI.deps.json",
+        "lib/netstandard2.0/NPOI.dll",
+        "logo/120_120.jpg",
+        "logo/240_240.png",
+        "logo/32_32.jpg",
+        "logo/60_60.jpg",
+        "npoi.2.4.1.nupkg.sha512",
+        "npoi.nuspec"
+      ]
+    },
+    "RestSharp/106.3.1": {
+      "sha512": "TmlN7SXjK52zzpQDTuzw7IH3XQ2Svtss/4zvQBKIgf74QIVxvlxoAqQYu1EhNQ1bMSBIQ4aK120BO7W+v8/kiQ==",
+      "type": "package",
+      "path": "restsharp/106.3.1",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.dll",
+        "restsharp.106.3.1.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "SharpZipLib/1.0.0": {
+      "sha512": "YuYztmY3jEb21F6e5LIPHJjApdtzdCPQ284UzsCKNfkgW71bukFHJES6RbKi+wm053XzFg0LX5/2vj/9gl8F/g==",
+      "type": "package",
+      "path": "sharpziplib/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.0.0.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.1": {
+      "sha512": "WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "UiPath/20.2.7348.30662-preview": {
+      "sha512": "GTTqJvKIuMEopSOCmYWbbLPRxXZKzziAJ8Gb0V8SsTJmWoFbujLRcwShifbuEqz12ArrkBWxi744y7gQSfzGBA==",
+      "type": "package",
+      "path": "uipath/20.2.7348.30662-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/UiPath.targets",
+        "build/UiPath/BrowserNativeMessagingImpl.dll",
+        "build/UiPath/FuncServer_x64.exe",
+        "build/UiPath/FuncServer_x86.exe",
+        "build/UiPath/JavaSupport/UiPathBridge.jar",
+        "build/UiPath/JavaSupport/UiPathJBIntruder.jar",
+        "build/UiPath/JavaSupport/UiPathJBIntruderV8.jar",
+        "build/UiPath/JavaSupport/UiPathJavaServiceProvider.jar",
+        "build/UiPath/JavaSupport/UiPathV8.jar",
+        "build/UiPath/JavaSupport/attach_x64/6/attach.dll",
+        "build/UiPath/JavaSupport/attach_x64/7/attach.dll",
+        "build/UiPath/JavaSupport/attach_x86/6/attach.dll",
+        "build/UiPath/JavaSupport/attach_x86/7/attach.dll",
+        "build/UiPath/JavaSupport/jaccess-1_2.jar",
+        "build/UiPath/JavaSupport/jaccess-1_3.jar",
+        "build/UiPath/JavaSupport/jaccess-1_4.jar",
+        "build/UiPath/JavaSupport/jaccess.jar",
+        "build/UiPath/JavaSupport/tools.jar",
+        "build/UiPath/JavaSupport/toolsV8.jar",
+        "build/UiPath/JavaSupport/xml-apis.jar",
+        "build/UiPath/Resources/x32.manifest",
+        "build/UiPath/Resources/x64.manifest",
+        "build/UiPath/SLBroker.dll",
+        "build/UiPath/SLBroker.xap",
+        "build/UiPath/SLHook.dll",
+        "build/UiPath/ShaferFilechck.dll",
+        "build/UiPath/TCapture.dll",
+        "build/UiPath/TCapture_x64.dll",
+        "build/UiPath/UiPath.dll",
+        "build/UiPath/UiPathJavaBridgeImplV8.dll",
+        "build/UiPath/UiPathJavaBridgeImplV8_x64.dll",
+        "build/UiPath/UiPathJavaBridgeV8.dll",
+        "build/UiPath/UiPathJavaBridgeV8_x64.dll",
+        "build/UiPath/UiPathRemote.exe",
+        "build/UiPath/UiPathSLB.dll",
+        "build/UiPath/UiPathSLB_x64.dll",
+        "build/UiPath/UiPath_x64.dll",
+        "build/UiPath/aahook.dll",
+        "build/UiPath/aahook_x64.dll",
+        "build/UiPath/libcurl_x64.dll",
+        "build/UiPath/libcurl_x86.dll",
+        "build/UiPath/license.config",
+        "build/UiPath/msvcr100.dll",
+        "build/UiPath/slinject.exe",
+        "build/UiPath/x64/ShaferFilechck_x64.DLL",
+        "build/UiPath/x64/msvcr100.dll",
+        "lib/UiPath.Interop.dll",
+        "uipath.20.2.7348.30662-preview.nupkg.sha512",
+        "uipath.nuspec"
+      ]
+    },
+    "UiPath.CefSharpBundle/1.0.1": {
+      "sha512": "gGaKl9ZghgT+zvSAmbHfl9/n2x7tKHEBRPlbhrDyGN8kLF5qhZq2cX0RV39GF49/3+UBK4n05TLK8JQtW7QplQ==",
+      "type": "package",
+      "path": "uipath.cefsharpbundle/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/UiPath.CefSharpBundle.targets",
+        "lib/net452/CefSharp.BrowserSubprocess.Core.dll",
+        "lib/net452/CefSharp.BrowserSubprocess.exe",
+        "lib/net452/CefSharp.Core.dll",
+        "lib/net452/CefSharp.Core.xml",
+        "lib/net452/CefSharp.Wpf.XML",
+        "lib/net452/CefSharp.Wpf.dll",
+        "lib/net452/CefSharp.XML",
+        "lib/net452/CefSharp.dll",
+        "lib/net452/UiPath.CEFSharpBundle.dll",
+        "lib/net452/cef.pak",
+        "lib/net452/cef_100_percent.pak",
+        "lib/net452/cef_200_percent.pak",
+        "lib/net452/cef_extensions.pak",
+        "lib/net452/chrome_elf.dll",
+        "lib/net452/d3dcompiler_47.dll",
+        "lib/net452/icudtl.dat",
+        "lib/net452/libEGL.dll",
+        "lib/net452/libGLESv2.dll",
+        "lib/net452/libcef.dll",
+        "lib/net452/locales/am.pak",
+        "lib/net452/locales/ar.pak",
+        "lib/net452/locales/bg.pak",
+        "lib/net452/locales/bn.pak",
+        "lib/net452/locales/ca.pak",
+        "lib/net452/locales/cs.pak",
+        "lib/net452/locales/da.pak",
+        "lib/net452/locales/de.pak",
+        "lib/net452/locales/el.pak",
+        "lib/net452/locales/en-GB.pak",
+        "lib/net452/locales/en-US.pak",
+        "lib/net452/locales/es-419.pak",
+        "lib/net452/locales/es.pak",
+        "lib/net452/locales/et.pak",
+        "lib/net452/locales/fa.pak",
+        "lib/net452/locales/fi.pak",
+        "lib/net452/locales/fil.pak",
+        "lib/net452/locales/fr.pak",
+        "lib/net452/locales/gu.pak",
+        "lib/net452/locales/he.pak",
+        "lib/net452/locales/hi.pak",
+        "lib/net452/locales/hr.pak",
+        "lib/net452/locales/hu.pak",
+        "lib/net452/locales/id.pak",
+        "lib/net452/locales/it.pak",
+        "lib/net452/locales/ja.pak",
+        "lib/net452/locales/kn.pak",
+        "lib/net452/locales/ko.pak",
+        "lib/net452/locales/lt.pak",
+        "lib/net452/locales/lv.pak",
+        "lib/net452/locales/ml.pak",
+        "lib/net452/locales/mr.pak",
+        "lib/net452/locales/ms.pak",
+        "lib/net452/locales/nb.pak",
+        "lib/net452/locales/nl.pak",
+        "lib/net452/locales/pl.pak",
+        "lib/net452/locales/pt-BR.pak",
+        "lib/net452/locales/pt-PT.pak",
+        "lib/net452/locales/ro.pak",
+        "lib/net452/locales/ru.pak",
+        "lib/net452/locales/sk.pak",
+        "lib/net452/locales/sl.pak",
+        "lib/net452/locales/sr.pak",
+        "lib/net452/locales/sv.pak",
+        "lib/net452/locales/sw.pak",
+        "lib/net452/locales/ta.pak",
+        "lib/net452/locales/te.pak",
+        "lib/net452/locales/th.pak",
+        "lib/net452/locales/tr.pak",
+        "lib/net452/locales/uk.pak",
+        "lib/net452/locales/vi.pak",
+        "lib/net452/locales/zh-CN.pak",
+        "lib/net452/locales/zh-TW.pak",
+        "lib/net452/msvcp140.dll",
+        "lib/net452/natives_blob.bin",
+        "lib/net452/snapshot_blob.bin",
+        "lib/net452/swiftshader/libEGL.dll",
+        "lib/net452/swiftshader/libGLESv2.dll",
+        "lib/net452/v8_context_snapshot.bin",
+        "lib/net452/vcruntime140.dll",
+        "license.txt",
+        "uipath.cefsharpbundle.1.0.1.nupkg.sha512",
+        "uipath.cefsharpbundle.nuspec"
+      ]
+    },
+    "UiPath.Excel.Activities/2.7.2": {
+      "sha512": "wmOu6H+JPigFH6fO7mZTpH6xLYB14PUWprAtNsrjtu6zt1QUUcTHxjFq3d3HgK8vsERc0ZyoVUhIvqskxFScUQ==",
+      "type": "package",
+      "path": "uipath.excel.activities/2.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.Excel.Activities.Design.dll",
+        "lib/net461/UiPath.Excel.Activities.dll",
+        "lib/net461/UiPath.Excel.dll",
+        "lib/net461/de/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/de/UiPath.Excel.resources.dll",
+        "lib/net461/es-MX/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Excel.resources.dll",
+        "lib/net461/es/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/es/UiPath.Excel.resources.dll",
+        "lib/net461/fr/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Excel.resources.dll",
+        "lib/net461/ja/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Excel.resources.dll",
+        "lib/net461/ko/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Excel.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Excel.resources.dll",
+        "lib/net461/pt/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Excel.resources.dll",
+        "lib/net461/ru/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Excel.resources.dll",
+        "lib/net461/tr/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Excel.resources.dll",
+        "lib/net461/zh-CN/UiPath.Excel.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Excel.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Excel.resources.dll",
+        "uipath.excel.activities.2.7.2.nupkg.sha512",
+        "uipath.excel.activities.nuspec"
+      ]
+    },
+    "UiPath.Form.Activities/1.0.0": {
+      "sha512": "17VU55AAZRPwsYfN+3X3sYtYo10E9SngEOELZSqJ4+NwKuotkmEZm7DLoShaVmBsrIM+l3hwB2lXID1Gl3AG9w==",
+      "type": "package",
+      "path": "uipath.form.activities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web/css/bootstrap-material.css",
+        "content/web/css/bootstrap.min.css",
+        "content/web/css/bootstrap_materia.css",
+        "content/web/css/custom.css",
+        "content/web/css/font-awesome.min.css",
+        "content/web/css/formio.full.min.css",
+        "content/web/css/ripples.css",
+        "content/web/css/roboto.css",
+        "content/web/css/themes/callout-cerulean-blue.css",
+        "content/web/css/themes/callout-cerulean-white.css",
+        "content/web/css/themes/cerulean.bootstrap.min.css",
+        "content/web/css/themes/uipath.bootstrap.min.css",
+        "content/web/css/themes/uipath.custom.css",
+        "content/web/fonts/fontawesome-webfont.svg",
+        "content/web/fonts/glyphicons-halflings-regular.svg",
+        "content/web/index.html",
+        "content/web/js/Label.js",
+        "content/web/js/callout.js",
+        "content/web/js/formio.full.min.js",
+        "content/web/js/jquery-3.4.0.min.js",
+        "lib/net461/UiPath.Callout.Activity.Design.dll",
+        "lib/net461/UiPath.Callout.Activity.dll",
+        "lib/net461/UiPath.Callout.dll",
+        "lib/net461/UiPath.Form.Activities.Design.dll",
+        "lib/net461/UiPath.Form.Activities.dll",
+        "lib/net461/de/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/de/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/de/UiPath.Callout.resources.dll",
+        "lib/net461/de/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Form.Activities.resources.dll",
+        "lib/net461/de/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/es-MX/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/es-MX/UiPath.Callout.resources.dll",
+        "lib/net461/es-MX/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Form.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/es/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/es/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/es/UiPath.Callout.resources.dll",
+        "lib/net461/es/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Form.Activities.resources.dll",
+        "lib/net461/es/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/fr/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/fr/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/fr/UiPath.Callout.resources.dll",
+        "lib/net461/fr/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Form.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/ja/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/ja/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/ja/UiPath.Callout.resources.dll",
+        "lib/net461/ja/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Form.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/ko/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/ko/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/ko/UiPath.Callout.resources.dll",
+        "lib/net461/ko/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Form.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/pt-BR/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/pt-BR/UiPath.Callout.resources.dll",
+        "lib/net461/pt-BR/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Form.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/pt/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/pt/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/pt/UiPath.Callout.resources.dll",
+        "lib/net461/pt/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Form.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/ru/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/ru/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/ru/UiPath.Callout.resources.dll",
+        "lib/net461/ru/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Form.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/tr/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/tr/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/tr/UiPath.Callout.resources.dll",
+        "lib/net461/tr/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Form.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/zh-CN/UiPath.Callout.Activity.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Callout.Activity.resources.dll",
+        "lib/net461/zh-CN/UiPath.Callout.resources.dll",
+        "lib/net461/zh-CN/UiPath.Form.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Form.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Form.Host.Local.resources.dll",
+        "uipath.form.activities.1.0.0.nupkg.sha512",
+        "uipath.form.activities.nuspec"
+      ]
+    },
+    "UiPath.FormActivityLibrary/1.0.1": {
+      "sha512": "l2tqlVcXeDzq+90DyJdPNT65aDJl4ggMu+XtEjPOz0Ioo/MpR1bRlP4i4J53TbFB557gtZru9K7O8RLPmi4e8A==",
+      "type": "package",
+      "path": "uipath.formactivitylibrary/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Resources/UIPATH_Logo.png",
+        "content/UI/Designer/assets/fonts/fontawesome-webfont.svg",
+        "content/UI/Designer/assets/fonts/glyphicons-halflings-regular.svg",
+        "content/UI/Designer/assets/icons/dark/AddTemplateDark.png",
+        "content/UI/Designer/assets/icons/dark/ExitPreviewDark.png",
+        "content/UI/Designer/assets/icons/dark/PreviewDark.png",
+        "content/UI/Designer/assets/icons/dark/RemoveDark.png",
+        "content/UI/Designer/assets/icons/dark/SaveAsDark.png",
+        "content/UI/Designer/assets/icons/dark/SaveDark.png",
+        "content/UI/Designer/assets/icons/dark/ThemeDark.png",
+        "content/UI/Designer/assets/icons/dark/UiPath_IconDark.png",
+        "content/UI/Designer/assets/icons/default/AddTemplate.png",
+        "content/UI/Designer/assets/icons/default/Preview.png",
+        "content/UI/Designer/assets/icons/default/Remove.png",
+        "content/UI/Designer/assets/icons/default/Reset.png",
+        "content/UI/Designer/assets/icons/default/Save.png",
+        "content/UI/Designer/assets/icons/default/SaveAs.png",
+        "content/UI/Designer/assets/icons/default/Theme.png",
+        "content/UI/Designer/assets/icons/selected/AddTemplate.png",
+        "content/UI/Designer/assets/icons/selected/ExitPreview.png",
+        "content/UI/Designer/assets/icons/selected/Preview.png",
+        "content/UI/Designer/assets/icons/selected/Remove.png",
+        "content/UI/Designer/assets/icons/selected/Save.png",
+        "content/UI/Designer/assets/icons/selected/SaveAs.png",
+        "content/UI/Designer/assets/icons/selected/Theme.png",
+        "content/UI/Designer/assets/images/loader.gif",
+        "content/UI/Designer/assets/themeicons/addtheme.png",
+        "content/UI/Designer/assets/themeicons/cerulean.png",
+        "content/UI/Designer/assets/themeicons/cosmo.png",
+        "content/UI/Designer/assets/themeicons/cyborg.png",
+        "content/UI/Designer/assets/themeicons/darkly.png",
+        "content/UI/Designer/assets/themeicons/flatly.png",
+        "content/UI/Designer/assets/themeicons/journal.png",
+        "content/UI/Designer/assets/themeicons/lumen.png",
+        "content/UI/Designer/assets/themeicons/paper.png",
+        "content/UI/Designer/assets/themeicons/readable.png",
+        "content/UI/Designer/assets/themeicons/sandstone.png",
+        "content/UI/Designer/assets/themeicons/simplex.png",
+        "content/UI/Designer/assets/themeicons/slate.png",
+        "content/UI/Designer/assets/themeicons/spacelab.png",
+        "content/UI/Designer/assets/themeicons/superhero.png",
+        "content/UI/Designer/assets/themeicons/uipath.png",
+        "content/UI/Designer/assets/themeicons/united.png",
+        "content/UI/Designer/assets/themeicons/yeti.png",
+        "content/UI/Designer/css/bootstrap.min.css",
+        "content/UI/Designer/css/font-awesome.min.css",
+        "content/UI/Designer/css/styles.css",
+        "content/UI/Designer/css/themes/callout-cerulean-blue.css",
+        "content/UI/Designer/css/themes/callout-cerulean-white.css",
+        "content/UI/Designer/css/themes/cerulean.bootstrap.min.css",
+        "content/UI/Designer/css/themes/cosmo.bootstrap.min.css",
+        "content/UI/Designer/css/themes/cyborg.bootstrap.min.css",
+        "content/UI/Designer/css/themes/darkly.bootstrap.min.css",
+        "content/UI/Designer/css/themes/flatly.bootstrap.min.css",
+        "content/UI/Designer/css/themes/journal.bootstrap.min.css",
+        "content/UI/Designer/css/themes/lumen.bootstrap.min.css",
+        "content/UI/Designer/css/themes/paper.bootstrap.min.css",
+        "content/UI/Designer/css/themes/readable.bootstrap.min.css",
+        "content/UI/Designer/css/themes/sandstone.bootstrap.min.css",
+        "content/UI/Designer/css/themes/simplex.bootstrap.min.css",
+        "content/UI/Designer/css/themes/slate.bootstrap.min.css",
+        "content/UI/Designer/css/themes/spacelab.bootstrap.min.css",
+        "content/UI/Designer/css/themes/superhero.bootstrap.min.css",
+        "content/UI/Designer/css/themes/uipath.bootstrap.min.css",
+        "content/UI/Designer/css/themes/uipath.custom.css",
+        "content/UI/Designer/css/themes/uipath.dark.custom.css",
+        "content/UI/Designer/css/themes/united.bootstrap.min.css",
+        "content/UI/Designer/css/themes/yeti.bootstrap.min.css",
+        "content/UI/Designer/index.html",
+        "content/UI/Designer/js/bootstrap.min.js",
+        "content/UI/Designer/js/es2015-polyfills.js",
+        "content/UI/Designer/js/jquery-3.4.0.min.js",
+        "content/UI/Designer/js/main.js",
+        "content/UI/Designer/js/polyfills.js",
+        "content/UI/Designer/js/runtime.js",
+        "content/UI/Formio/FormDisplay.html",
+        "content/UI/Formio/css/bootstrap.min.css",
+        "content/UI/Formio/css/callout_styles.css",
+        "content/UI/Formio/css/custom.css",
+        "content/UI/Formio/css/customformstyle.css",
+        "content/UI/Formio/css/formio.full.min.css",
+        "content/UI/Formio/css/roboto.css",
+        "content/UI/Formio/jquery/jquery-1.7.1.min.js",
+        "content/UI/Formio/js/Label.js",
+        "content/UI/Formio/js/formio.full.min.js",
+        "content/UI/Formio/js/uipath-formio-ext.js",
+        "content/UI/Formio/js/uipath_apply_theme.js",
+        "content/UI/Formio/js/uipath_render.js",
+        "content/UI/Templates/CALLOUT/Callout_Buttons.json",
+        "content/UI/Templates/CALLOUT/Callout_InfoBubble.json",
+        "content/UI/Templates/CALLOUT/Callout_Textbox.json",
+        "content/UI/Templates/CALLOUT/version.txt",
+        "content/UI/Templates/FORMS/CRM Support Ticket Form.json",
+        "content/UI/Templates/FORMS/Contact Information.json",
+        "content/UI/Templates/FORMS/Credit Card Order Form.json",
+        "content/UI/Templates/FORMS/Feedback Form.json",
+        "content/UI/Templates/FORMS/IT Service Ticket.json",
+        "content/UI/Templates/FORMS/Supplier Invoice Submission Form.json",
+        "content/UI/Templates/FORMS/version.txt",
+        "lib/net461/UiPath.Form.ActivityLibrary.dll",
+        "lib/net461/UiPath.Form.Host.Local.dll",
+        "lib/net461/UiPath.Form.dll",
+        "lib/net461/UiPath.OutOfProcessUi.Common.dll",
+        "lib/net461/UiPath.OutOfProcessUi.Host.WCF.exe",
+        "lib/net461/de/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/es-MX/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/es/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/fr/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/ja/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/ko/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/pt-BR/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/pt/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/ru/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/tr/UiPath.Form.Host.Local.resources.dll",
+        "lib/net461/zh-CN/UiPath.Form.Host.Local.resources.dll",
+        "uipath.formactivitylibrary.1.0.1.nupkg.sha512",
+        "uipath.formactivitylibrary.nuspec"
+      ]
+    },
+    "UiPath.FormActivityLibrary.Contracts/1.0.0": {
+      "sha512": "PkPks8iYttzWoxuRbBD7jF00ns8gWuQrhp5Jj5XB5pf5xO+66aJljRc/G7+CA8YV/kelSRd6VAIrO+yP2j8puw==",
+      "type": "package",
+      "path": "uipath.formactivitylibrary.contracts/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.Form.ActivityLibrary.Contracts.dll",
+        "uipath.formactivitylibrary.contracts.1.0.0.nupkg.sha512",
+        "uipath.formactivitylibrary.contracts.nuspec"
+      ]
+    },
+    "UiPath.Mail.Activities/1.7.2": {
+      "sha512": "nmbFqLG4rHXAx/AKzXn55maa6ELzLNZTRXiV2kgHIP0fATtZd03yhyFp9qKziLjfRAOufxaZl4v3/WI8GHj6jg==",
+      "type": "package",
+      "path": "uipath.mail.activities/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MailKit.dll",
+        "lib/net461/MailKit.xml",
+        "lib/net461/MimeKit.dll",
+        "lib/net461/MimeKit.xml",
+        "lib/net461/UiPath.Mail.Activities.Design.dll",
+        "lib/net461/UiPath.Mail.Activities.dll",
+        "lib/net461/UiPath.Mail.dll",
+        "lib/net461/de/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/de/UiPath.Mail.resources.dll",
+        "lib/net461/es-MX/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Mail.resources.dll",
+        "lib/net461/es/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/es/UiPath.Mail.resources.dll",
+        "lib/net461/fr/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Mail.resources.dll",
+        "lib/net461/ja/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Mail.resources.dll",
+        "lib/net461/ko/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Mail.resources.dll",
+        "lib/net461/pt-BR/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Mail.resources.dll",
+        "lib/net461/pt/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Mail.resources.dll",
+        "lib/net461/ru/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Mail.resources.dll",
+        "lib/net461/tr/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Mail.resources.dll",
+        "lib/net461/zh-CN/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Mail.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Mail.resources.dll",
+        "uipath.mail.activities.1.7.2.nupkg.sha512",
+        "uipath.mail.activities.nuspec"
+      ]
+    },
+    "UiPath.OCR.Contracts/2.5.0-preview": {
+      "sha512": "105GY0cM+FarwTaL/2i+REgKmG96Zq+Cve9Pd0aYGGFQsdw2A5pVcUq3SFtmhtJG3xghUtvzGqpV0hqpYqbjYg==",
+      "type": "package",
+      "path": "uipath.ocr.contracts/2.5.0-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/UiPath.OCR.Contracts.dll",
+        "uipath.ocr.contracts.2.5.0-preview.nupkg.sha512",
+        "uipath.ocr.contracts.nuspec"
+      ]
+    },
+    "UiPath.OmniPage.Activities/1.4.0-preview": {
+      "sha512": "07G1sa6/td/IO84MQmBWBJrCemhC+jbuXfnawnY9HUM7/A11kBeft88jjlWOCXIXBtAQaWTiy1b0BJQ2iWuNJg==",
+      "type": "package",
+      "path": "uipath.omnipage.activities/1.4.0-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/AForge.Imaging.dll",
+        "build/AForge.Math.dll",
+        "build/AForge.dll",
+        "build/NLog.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/Nuance OmniPage Capture SDK_20.0.lcxz",
+        "build/System.Collections.Immutable.dll",
+        "build/UiPath.Activities.Api.Base.dll",
+        "build/UiPath.Api.Base.dll",
+        "build/UiPath.OCR.Contracts.dll",
+        "build/UiPath.OmniPage.Activities.Design.dll",
+        "build/UiPath.OmniPage.Activities.dll",
+        "build/UiPath.OmniPage.Host32.exe",
+        "build/UiPath.OmniPage.Host32.exe.config",
+        "build/UiPath.Robot.Activities.Api.dll",
+        "build/UiPath.Studio.Activities.Api.dll",
+        "build/UiPath.Studio.Api.Base.dll",
+        "build/UiPath.Vision.OmniPage.Core.dll",
+        "build/UiPath.Vision.OmniPage.dll",
+        "build/nlog.config",
+        "lib/net452/UiPath.OmniPage.Activities.Design.dll",
+        "lib/net452/UiPath.OmniPage.Activities.dll",
+        "lib/net452/UiPath.OmniPage.Host32.exe",
+        "lib/net452/UiPath.Vision.OmniPage.Core.dll",
+        "lib/net452/UiPath.Vision.OmniPage.dll",
+        "lib/net452/de/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/de/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/es-MX/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/es-MX/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/es/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/es/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/fr/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/fr/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/ja/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/ja/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/ko/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/ko/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/pt-BR/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/pt-BR/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/pt/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/pt/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/ru/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/ru/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/tr/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/tr/UiPath.OmniPage.Activities.resources.dll",
+        "lib/net452/zh-CN/UiPath.OmniPage.Activities.Design.resources.dll",
+        "lib/net452/zh-CN/UiPath.OmniPage.Activities.resources.dll",
+        "uipath.omnipage.activities.1.4.0-preview.nupkg.sha512",
+        "uipath.omnipage.activities.nuspec"
+      ]
+    },
+    "UiPath.OmniPage.Bundle/1.0.1": {
+      "sha512": "qZp+lIMq8QEmcmXiQfNCqvgZSFFp3rbuQjmgLziPolj+OA/iDf3ImdGTTrW+yWx0fmxfPzaqcXjmroOwzxvGsQ==",
+      "type": "package",
+      "path": "uipath.omnipage.bundle/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/UiPath.OmniPage.Bundle.targets",
+        "lib/net452/AppHelper.dll",
+        "lib/net452/AppProductConfig.dll",
+        "lib/net452/AppUtils.dll",
+        "lib/net452/BALTIC.shp",
+        "lib/net452/Bnt.dll",
+        "lib/net452/Bold300.knb",
+        "lib/net452/CRX.dll",
+        "lib/net452/CYRILLIC.shp",
+        "lib/net452/CharSetTable.chr",
+        "lib/net452/ConvSettings.sts",
+        "lib/net452/DISTR_TST.exe",
+        "lib/net452/Defaults.dll",
+        "lib/net452/ErrMsg.txz",
+        "lib/net452/FireWrx2.dll",
+        "lib/net452/FireWrx3.dll",
+        "lib/net452/FireWrx4.dll",
+        "lib/net452/FireWrx5.dll",
+        "lib/net452/FireWrx6.dll",
+        "lib/net452/Firewrx.dll",
+        "lib/net452/Formatter.dll",
+        "lib/net452/GREEK.shp",
+        "lib/net452/ICDLLW32.dll",
+        "lib/net452/ICHUNW32.dll",
+        "lib/net452/IF_PNG.dll",
+        "lib/net452/IPP_OmniPage.dlm",
+        "lib/net452/KernelAPI.dll",
+        "lib/net452/LATIN1.shp",
+        "lib/net452/LATIN2.shp",
+        "lib/net452/LEditor.dll",
+        "lib/net452/LecsoMgr.dll",
+        "lib/net452/ME_ConverterMgr.dlm",
+        "lib/net452/ME_D2D.dlm",
+        "lib/net452/ME_DocMgr.dlm",
+        "lib/net452/ME_WFAssist.dlm",
+        "lib/net452/ME_WFMgr.dlm",
+        "lib/net452/ME_WFView.dlm",
+        "lib/net452/MiddleEarth.dll",
+        "lib/net452/Mor.dll",
+        "lib/net452/Mor2.dll",
+        "lib/net452/Mor3.dll",
+        "lib/net452/Mor4.dll",
+        "lib/net452/Mor5.dll",
+        "lib/net452/Mor6.dll",
+        "lib/net452/MorIF.dll",
+        "lib/net452/Nuance.OmniPage.CSDK.ArgTypes.dll",
+        "lib/net452/Nuance.OmniPage.CSDK.CAPI.dll",
+        "lib/net452/Nuance.OmniPage.CSDK.Objects.dll",
+        "lib/net452/PreRendering.dll",
+        "lib/net452/R_CAT.DAT",
+        "lib/net452/R_CZH.DAT",
+        "lib/net452/R_DAN.DAT",
+        "lib/net452/R_DUT.DAT",
+        "lib/net452/R_ENG.DAT",
+        "lib/net452/R_FIN.DAT",
+        "lib/net452/R_FRE.DAT",
+        "lib/net452/R_GER.DAT",
+        "lib/net452/R_GRE.DAT",
+        "lib/net452/R_HUN.DAT",
+        "lib/net452/R_ITA.DAT",
+        "lib/net452/R_NOR.DAT",
+        "lib/net452/R_POL.DAT",
+        "lib/net452/R_POR.DAT",
+        "lib/net452/R_RUS.DAT",
+        "lib/net452/R_SLN.DMD",
+        "lib/net452/R_SPA.DAT",
+        "lib/net452/R_SWE.DAT",
+        "lib/net452/RecAPIPlus.dll",
+        "lib/net452/RecDiag.dll",
+        "lib/net452/RecPDFNet.dll",
+        "lib/net452/Recogn.bct",
+        "lib/net452/Recogn24.bct",
+        "lib/net452/Rendering.dll",
+        "lib/net452/Rendering2.dll",
+        "lib/net452/SPDFLib.dll",
+        "lib/net452/SkinnedClasses.dll",
+        "lib/net452/SkinnedWindows.dll",
+        "lib/net452/TURKISH.shp",
+        "lib/net452/UiPath.OmniPage.Bundle.dll",
+        "lib/net452/WM_OPActions.dlm",
+        "lib/net452/WM_OPSteps.dlm",
+        "lib/net452/WM_OPUIActions.dlm",
+        "lib/net452/XIBRTB.BIN",
+        "lib/net452/XIBRTC.BIN",
+        "lib/net452/XIBRTD.BIN",
+        "lib/net452/XIBRTE.BIN",
+        "lib/net452/XIBRTP.BIN",
+        "lib/net452/XIBRTS.BIN",
+        "lib/net452/XIBRTZ.BIN",
+        "lib/net452/XIBRZB.BIN",
+        "lib/net452/XIBRZC.BIN",
+        "lib/net452/XIBRZD.BIN",
+        "lib/net452/XIBRZE.BIN",
+        "lib/net452/XIBRZP.BIN",
+        "lib/net452/XIBRZS.BIN",
+        "lib/net452/XIBRZZ.BIN",
+        "lib/net452/XIDANB.BIN",
+        "lib/net452/XIDANC.BIN",
+        "lib/net452/XIDAND.BIN",
+        "lib/net452/XIDANE.BIN",
+        "lib/net452/XIDANP.BIN",
+        "lib/net452/XIDANS.BIN",
+        "lib/net452/XIDANZ.BIN",
+        "lib/net452/XIDUTB.BIN",
+        "lib/net452/XIDUTC.BIN",
+        "lib/net452/XIDUTD.BIN",
+        "lib/net452/XIDUTE.BIN",
+        "lib/net452/XIDUTP.BIN",
+        "lib/net452/XIDUTS.BIN",
+        "lib/net452/XIDUTZ.BIN",
+        "lib/net452/XIFINB.BIN",
+        "lib/net452/XIFINC.BIN",
+        "lib/net452/XIFIND.BIN",
+        "lib/net452/XIFINE.BIN",
+        "lib/net452/XIFINP.BIN",
+        "lib/net452/XIFINS.BIN",
+        "lib/net452/XIFINZ.BIN",
+        "lib/net452/XIFRNB.BIN",
+        "lib/net452/XIFRNC.BIN",
+        "lib/net452/XIFRND.BIN",
+        "lib/net452/XIFRNE.BIN",
+        "lib/net452/XIFRNP.BIN",
+        "lib/net452/XIFRNS.BIN",
+        "lib/net452/XIFRNZ.BIN",
+        "lib/net452/XIGRMB.BIN",
+        "lib/net452/XIGRMC.BIN",
+        "lib/net452/XIGRMD.BIN",
+        "lib/net452/XIGRME.BIN",
+        "lib/net452/XIGRMP.BIN",
+        "lib/net452/XIGRMS.BIN",
+        "lib/net452/XIGRMZ.BIN",
+        "lib/net452/XIITLB.BIN",
+        "lib/net452/XIITLC.BIN",
+        "lib/net452/XIITLD.BIN",
+        "lib/net452/XIITLE.BIN",
+        "lib/net452/XIITLP.BIN",
+        "lib/net452/XIITLS.BIN",
+        "lib/net452/XIITLZ.BIN",
+        "lib/net452/XINRWB.BIN",
+        "lib/net452/XINRWC.BIN",
+        "lib/net452/XINRWD.BIN",
+        "lib/net452/XINRWE.BIN",
+        "lib/net452/XINRWP.BIN",
+        "lib/net452/XINRWS.BIN",
+        "lib/net452/XINRWZ.BIN",
+        "lib/net452/XIPRTB.BIN",
+        "lib/net452/XIPRTC.BIN",
+        "lib/net452/XIPRTD.BIN",
+        "lib/net452/XIPRTE.BIN",
+        "lib/net452/XIPRTP.BIN",
+        "lib/net452/XIPRTS.BIN",
+        "lib/net452/XIPRTZ.BIN",
+        "lib/net452/XISPNB.BIN",
+        "lib/net452/XISPNC.BIN",
+        "lib/net452/XISPND.BIN",
+        "lib/net452/XISPNE.BIN",
+        "lib/net452/XISPNP.BIN",
+        "lib/net452/XISPNS.BIN",
+        "lib/net452/XISPNZ.BIN",
+        "lib/net452/XISWDB.BIN",
+        "lib/net452/XISWDC.BIN",
+        "lib/net452/XISWDD.BIN",
+        "lib/net452/XISWDE.BIN",
+        "lib/net452/XISWDP.BIN",
+        "lib/net452/XISWDS.BIN",
+        "lib/net452/XISWDZ.BIN",
+        "lib/net452/Xiengb.bin",
+        "lib/net452/Xiengc.bin",
+        "lib/net452/Xiengd.bin",
+        "lib/net452/Xienge.bin",
+        "lib/net452/Xiengf.bin",
+        "lib/net452/Xiengp.bin",
+        "lib/net452/Xiengs.bin",
+        "lib/net452/Xiengz.bin",
+        "lib/net452/asciieng.lng",
+        "lib/net452/atm2lll.dll",
+        "lib/net452/czech.lng",
+        "lib/net452/danish.lng",
+        "lib/net452/dutch.lng",
+        "lib/net452/english.lng",
+        "lib/net452/finnish.lng",
+        "lib/net452/french.lng",
+        "lib/net452/german.lng",
+        "lib/net452/greek.lng",
+        "lib/net452/hungar.lng",
+        "lib/net452/italian.lng",
+        "lib/net452/jp2k_kdu_apps_vnew.dll",
+        "lib/net452/kdu_vnewR.dll",
+        "lib/net452/latin1.set",
+        "lib/net452/lpdata.bin",
+        "lib/net452/lpdata_russian.bin",
+        "lib/net452/msvcp140.dll",
+        "lib/net452/norsk.lng",
+        "lib/net452/pccext.dll",
+        "lib/net452/pccext2.dll",
+        "lib/net452/pccext3.dll",
+        "lib/net452/pccext4.dll",
+        "lib/net452/pccext5.dll",
+        "lib/net452/pccext6.dll",
+        "lib/net452/polish.lng",
+        "lib/net452/port.lng",
+        "lib/net452/recogn.duz",
+        "lib/net452/recogn.emp",
+        "lib/net452/recogn.set",
+        "lib/net452/recogn2.duz",
+        "lib/net452/rndsdawg.dll",
+        "lib/net452/rndsinso.dll",
+        "lib/net452/russian.lng",
+        "lib/net452/sami.set",
+        "lib/net452/spanish.lng",
+        "lib/net452/ssdoc-schema2.xml",
+        "lib/net452/ssdoc-schema3.xsd",
+        "lib/net452/swedish.lng",
+        "lib/net452/turkish.lng",
+        "lib/net452/vcruntime140.dll",
+        "lib/net452/vtdata.bin",
+        "lib/net452/xibrzd.dmd",
+        "lib/net452/xiczhd.dmd",
+        "lib/net452/xidand.dmd",
+        "lib/net452/xidutd.dmd",
+        "lib/net452/xiengd.dmd",
+        "lib/net452/xiengl.bin",
+        "lib/net452/xifind.dmd",
+        "lib/net452/xifrnd.dmd",
+        "lib/net452/xigred.dmd",
+        "lib/net452/xigrmd.dmd",
+        "lib/net452/xihund.dmd",
+        "lib/net452/xiintd.dmd",
+        "lib/net452/xiitld.dmd",
+        "lib/net452/xinrwd.dmd",
+        "lib/net452/xipold.dmd",
+        "lib/net452/xiprtd.dmd",
+        "lib/net452/xispnd.dmd",
+        "lib/net452/xiswdd.dmd",
+        "lib/net452/xiturd.dmd",
+        "lib/net452/xocr.dll",
+        "lib/net452/xocr2.dll",
+        "lib/net452/xocr3.dll",
+        "lib/net452/xocr32b.exe",
+        "lib/net452/xocr4.dll",
+        "lib/net452/xocr5.dll",
+        "lib/net452/xocr6.dll",
+        "uipath.omnipage.bundle.1.0.1.nupkg.sha512",
+        "uipath.omnipage.bundle.nuspec"
+      ]
+    },
+    "UiPath.OmniPage.Bundle.Extended/1.0.0": {
+      "sha512": "UAhTPfWXACTHR2t04kv0s4j84RG7vlmPoDUIvI1ttaXqMTxOodA0DIoEQzFubwTJ2fYnBykwcnRSkSyEMu5wZg==",
+      "type": "package",
+      "path": "uipath.omnipage.bundle.extended/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/UiPath.OmniPage.Bundle.Extended.targets",
+        "lib/net452/AppHelper.dll",
+        "lib/net452/AppProductConfig.dll",
+        "lib/net452/AppUtils.dll",
+        "lib/net452/Asian.dll",
+        "lib/net452/BALTIC.shp",
+        "lib/net452/BIG5_GlyphMap_MingLiu.dat",
+        "lib/net452/Bnt.dll",
+        "lib/net452/Bold300.knb",
+        "lib/net452/CRX.dll",
+        "lib/net452/CYRILLIC.shp",
+        "lib/net452/CharSetTable.chr",
+        "lib/net452/ConvSettings.sts",
+        "lib/net452/DISTR_TST.exe",
+        "lib/net452/Defaults.dll",
+        "lib/net452/ErrMsg.txz",
+        "lib/net452/FireWrx2.dll",
+        "lib/net452/FireWrx3.dll",
+        "lib/net452/FireWrx4.dll",
+        "lib/net452/FireWrx5.dll",
+        "lib/net452/FireWrx6.dll",
+        "lib/net452/Firewrx.dll",
+        "lib/net452/Formatter.dll",
+        "lib/net452/GB2312_GlyphMap_song.dat",
+        "lib/net452/GREEK.shp",
+        "lib/net452/ICDLLW32.dll",
+        "lib/net452/ICHUNW32.dll",
+        "lib/net452/IF_PNG.dll",
+        "lib/net452/IPP_OmniPage.dlm",
+        "lib/net452/Icr2.dll",
+        "lib/net452/KOREAN_GlyphMap_GungsuhChe.dat",
+        "lib/net452/KernelAPI.dll",
+        "lib/net452/LATIN1.shp",
+        "lib/net452/LATIN2.shp",
+        "lib/net452/LEditor.dll",
+        "lib/net452/LMQuery.dll",
+        "lib/net452/LecsoMgr.dll",
+        "lib/net452/ME_ConverterMgr.dlm",
+        "lib/net452/ME_D2D.dlm",
+        "lib/net452/ME_DocMgr.dlm",
+        "lib/net452/ME_WFAssist.dlm",
+        "lib/net452/ME_WFMgr.dlm",
+        "lib/net452/ME_WFView.dlm",
+        "lib/net452/MiddleEarth.dll",
+        "lib/net452/Mingliu_HKSCS_GlyphMap.dat",
+        "lib/net452/Mor.dll",
+        "lib/net452/Mor2.dll",
+        "lib/net452/Mor3.dll",
+        "lib/net452/Mor4.dll",
+        "lib/net452/Mor5.dll",
+        "lib/net452/Mor6.dll",
+        "lib/net452/MorIF.dll",
+        "lib/net452/Nuance.OmniPage.CSDK.ArgTypes.dll",
+        "lib/net452/Nuance.OmniPage.CSDK.CAPI.dll",
+        "lib/net452/Nuance.OmniPage.CSDK.Objects.dll",
+        "lib/net452/PreRendering.dll",
+        "lib/net452/R_CAT.DAT",
+        "lib/net452/R_CZH.DAT",
+        "lib/net452/R_DAN.DAT",
+        "lib/net452/R_DUT.DAT",
+        "lib/net452/R_ENG.DAT",
+        "lib/net452/R_FIN.DAT",
+        "lib/net452/R_FRE.DAT",
+        "lib/net452/R_GER.DAT",
+        "lib/net452/R_GRE.DAT",
+        "lib/net452/R_HUN.DAT",
+        "lib/net452/R_ITA.DAT",
+        "lib/net452/R_NOR.DAT",
+        "lib/net452/R_POL.DAT",
+        "lib/net452/R_POR.DAT",
+        "lib/net452/R_RUS.DAT",
+        "lib/net452/R_SLN.DMD",
+        "lib/net452/R_SPA.DAT",
+        "lib/net452/R_SWE.DAT",
+        "lib/net452/RecAPIPlus.dll",
+        "lib/net452/RecDiag.dll",
+        "lib/net452/RecPDFNet.dll",
+        "lib/net452/RecoCore.dll",
+        "lib/net452/Recogn.bct",
+        "lib/net452/Recogn24.bct",
+        "lib/net452/Rendering.dll",
+        "lib/net452/Rendering2.dll",
+        "lib/net452/SJIS_GlyphMap_MSMinCho.dat",
+        "lib/net452/SPDFLib.dll",
+        "lib/net452/SkinnedClasses.dll",
+        "lib/net452/SkinnedWindows.dll",
+        "lib/net452/THOCRAPI.DLL",
+        "lib/net452/TURKISH.shp",
+        "lib/net452/TWBIG532.dll",
+        "lib/net452/TWForm.dll",
+        "lib/net452/TWGB32.dll",
+        "lib/net452/TWLAY32.dll",
+        "lib/net452/TWLAYKR.dll",
+        "lib/net452/TWReverse.dll",
+        "lib/net452/TWSJIS32.dll",
+        "lib/net452/Ttf_s_il.rec",
+        "lib/net452/Ttf_s_vn.rec",
+        "lib/net452/UiPath.OmniPage.Bundle.Extended.dll",
+        "lib/net452/WM_OPActions.dlm",
+        "lib/net452/WM_OPSteps.dlm",
+        "lib/net452/WM_OPUIActions.dlm",
+        "lib/net452/XIBRTB.BIN",
+        "lib/net452/XIBRTC.BIN",
+        "lib/net452/XIBRTD.BIN",
+        "lib/net452/XIBRTE.BIN",
+        "lib/net452/XIBRTP.BIN",
+        "lib/net452/XIBRTS.BIN",
+        "lib/net452/XIBRTZ.BIN",
+        "lib/net452/XIBRZB.BIN",
+        "lib/net452/XIBRZC.BIN",
+        "lib/net452/XIBRZD.BIN",
+        "lib/net452/XIBRZE.BIN",
+        "lib/net452/XIBRZP.BIN",
+        "lib/net452/XIBRZS.BIN",
+        "lib/net452/XIBRZZ.BIN",
+        "lib/net452/XIDANB.BIN",
+        "lib/net452/XIDANC.BIN",
+        "lib/net452/XIDAND.BIN",
+        "lib/net452/XIDANE.BIN",
+        "lib/net452/XIDANP.BIN",
+        "lib/net452/XIDANS.BIN",
+        "lib/net452/XIDANZ.BIN",
+        "lib/net452/XIDUTB.BIN",
+        "lib/net452/XIDUTC.BIN",
+        "lib/net452/XIDUTD.BIN",
+        "lib/net452/XIDUTE.BIN",
+        "lib/net452/XIDUTP.BIN",
+        "lib/net452/XIDUTS.BIN",
+        "lib/net452/XIDUTZ.BIN",
+        "lib/net452/XIFINB.BIN",
+        "lib/net452/XIFINC.BIN",
+        "lib/net452/XIFIND.BIN",
+        "lib/net452/XIFINE.BIN",
+        "lib/net452/XIFINP.BIN",
+        "lib/net452/XIFINS.BIN",
+        "lib/net452/XIFINZ.BIN",
+        "lib/net452/XIFRNB.BIN",
+        "lib/net452/XIFRNC.BIN",
+        "lib/net452/XIFRND.BIN",
+        "lib/net452/XIFRNE.BIN",
+        "lib/net452/XIFRNP.BIN",
+        "lib/net452/XIFRNS.BIN",
+        "lib/net452/XIFRNZ.BIN",
+        "lib/net452/XIGRMB.BIN",
+        "lib/net452/XIGRMC.BIN",
+        "lib/net452/XIGRMD.BIN",
+        "lib/net452/XIGRME.BIN",
+        "lib/net452/XIGRMP.BIN",
+        "lib/net452/XIGRMS.BIN",
+        "lib/net452/XIGRMZ.BIN",
+        "lib/net452/XIITLB.BIN",
+        "lib/net452/XIITLC.BIN",
+        "lib/net452/XIITLD.BIN",
+        "lib/net452/XIITLE.BIN",
+        "lib/net452/XIITLP.BIN",
+        "lib/net452/XIITLS.BIN",
+        "lib/net452/XIITLZ.BIN",
+        "lib/net452/XINRWB.BIN",
+        "lib/net452/XINRWC.BIN",
+        "lib/net452/XINRWD.BIN",
+        "lib/net452/XINRWE.BIN",
+        "lib/net452/XINRWP.BIN",
+        "lib/net452/XINRWS.BIN",
+        "lib/net452/XINRWZ.BIN",
+        "lib/net452/XIPRTB.BIN",
+        "lib/net452/XIPRTC.BIN",
+        "lib/net452/XIPRTD.BIN",
+        "lib/net452/XIPRTE.BIN",
+        "lib/net452/XIPRTP.BIN",
+        "lib/net452/XIPRTS.BIN",
+        "lib/net452/XIPRTZ.BIN",
+        "lib/net452/XISPNB.BIN",
+        "lib/net452/XISPNC.BIN",
+        "lib/net452/XISPND.BIN",
+        "lib/net452/XISPNE.BIN",
+        "lib/net452/XISPNP.BIN",
+        "lib/net452/XISPNS.BIN",
+        "lib/net452/XISPNZ.BIN",
+        "lib/net452/XISWDB.BIN",
+        "lib/net452/XISWDC.BIN",
+        "lib/net452/XISWDD.BIN",
+        "lib/net452/XISWDE.BIN",
+        "lib/net452/XISWDP.BIN",
+        "lib/net452/XISWDS.BIN",
+        "lib/net452/XISWDZ.BIN",
+        "lib/net452/Xiengb.bin",
+        "lib/net452/Xiengc.bin",
+        "lib/net452/Xiengd.bin",
+        "lib/net452/Xienge.bin",
+        "lib/net452/Xiengf.bin",
+        "lib/net452/Xiengp.bin",
+        "lib/net452/Xiengs.bin",
+        "lib/net452/Xiengz.bin",
+        "lib/net452/aceIden.dat",
+        "lib/net452/arabic.model",
+        "lib/net452/asciieng.lng",
+        "lib/net452/atm2lll.dll",
+        "lib/net452/bigramh.dat",
+        "lib/net452/bigramz.dat",
+        "lib/net452/cbigram.dat",
+        "lib/net452/chs.mb",
+        "lib/net452/cht.mb",
+        "lib/net452/cylm.elm",
+        "lib/net452/czech.lng",
+        "lib/net452/danish.lng",
+        "lib/net452/datasim.dat",
+        "lib/net452/dutch.lng",
+        "lib/net452/engdic.dat",
+        "lib/net452/engidx.dat",
+        "lib/net452/english.lng",
+        "lib/net452/errstore.dat",
+        "lib/net452/finnish.lng",
+        "lib/net452/french.lng",
+        "lib/net452/german.lng",
+        "lib/net452/greek.lng",
+        "lib/net452/hand_s.rec",
+        "lib/net452/hand_s_us.rec",
+        "lib/net452/hangullb.dat",
+        "lib/net452/hkprint2.dat",
+        "lib/net452/hungar.lng",
+        "lib/net452/hybridmodule.dll",
+        "lib/net452/italian.lng",
+        "lib/net452/japan.mb",
+        "lib/net452/jp2k_kdu_apps_vnew.dll",
+        "lib/net452/jpcode.uni",
+        "lib/net452/jpprint.dat",
+        "lib/net452/jpprint2.dat",
+        "lib/net452/jpserht.dat",
+        "lib/net452/jptree.dat",
+        "lib/net452/kadmos.uk",
+        "lib/net452/kadmos_rec.cfg",
+        "lib/net452/kdu_vnewR.dll",
+        "lib/net452/korean.mb",
+        "lib/net452/krcode.uni",
+        "lib/net452/krdist.dat",
+        "lib/net452/krprint.dat",
+        "lib/net452/krserht.dat",
+        "lib/net452/krtree.dat",
+        "lib/net452/kszp.dat",
+        "lib/net452/latin1.set",
+        "lib/net452/lookup.dat",
+        "lib/net452/lpdata.bin",
+        "lib/net452/lpdata_russian.bin",
+        "lib/net452/mojilist.dat",
+        "lib/net452/msvcp140.dll",
+        "lib/net452/mytoolbox.dll",
+        "lib/net452/norsk.lng",
+        "lib/net452/ocrhc.dat",
+        "lib/net452/ocrvc.dat",
+        "lib/net452/pccext.dll",
+        "lib/net452/pccext2.dll",
+        "lib/net452/pccext3.dll",
+        "lib/net452/pccext4.dll",
+        "lib/net452/pccext5.dll",
+        "lib/net452/pccext6.dll",
+        "lib/net452/polish.lng",
+        "lib/net452/port.lng",
+        "lib/net452/quantifi.dat",
+        "lib/net452/recogn.cjkz",
+        "lib/net452/recogn.duz",
+        "lib/net452/recogn.emp",
+        "lib/net452/recogn.set",
+        "lib/net452/recogn2.duz",
+        "lib/net452/rndsdawg.dll",
+        "lib/net452/rndsinso.dll",
+        "lib/net452/russian.lng",
+        "lib/net452/sami.set",
+        "lib/net452/sccode.uni",
+        "lib/net452/scprint.dat",
+        "lib/net452/scprint2.dat",
+        "lib/net452/scserht.dat",
+        "lib/net452/sctree.dat",
+        "lib/net452/sizes.dat",
+        "lib/net452/spanish.lng",
+        "lib/net452/ssdoc-schema2.xml",
+        "lib/net452/ssdoc-schema3.xsd",
+        "lib/net452/swedish.lng",
+        "lib/net452/tccode.uni",
+        "lib/net452/tcprint.dat",
+        "lib/net452/tcprint2.dat",
+        "lib/net452/tcserht.dat",
+        "lib/net452/tctree.dat",
+        "lib/net452/thocr_CHN_BIG.lib",
+        "lib/net452/thocr_HK.lib",
+        "lib/net452/thocr_JPN_BIG.lib",
+        "lib/net452/thocr_KRN.lib",
+        "lib/net452/ttf_s_th.rec",
+        "lib/net452/turkish.lng",
+        "lib/net452/tw_bu.dat",
+        "lib/net452/tw_gu.dat",
+        "lib/net452/tw_ku.dat",
+        "lib/net452/tw_su.dat",
+        "lib/net452/tw_ub.dat",
+        "lib/net452/tw_ug.dat",
+        "lib/net452/tw_uk.dat",
+        "lib/net452/tw_us.dat",
+        "lib/net452/twcut.dll",
+        "lib/net452/twcutchr.dll",
+        "lib/net452/twcutckr.dll",
+        "lib/net452/twcutla.dll",
+        "lib/net452/twcutle.dll",
+        "lib/net452/twcutlin.dll",
+        "lib/net452/twcutlkr.dll",
+        "lib/net452/twiden.dll",
+        "lib/net452/twksc32.dll",
+        "lib/net452/twlay32a.dll",
+        "lib/net452/tworient.dll",
+        "lib/net452/twpost32.dll",
+        "lib/net452/twpostk.dll",
+        "lib/net452/twrecc.dll",
+        "lib/net452/twrece.dll",
+        "lib/net452/twrecj.dll",
+        "lib/net452/twreck.dll",
+        "lib/net452/twrecs.dll",
+        "lib/net452/twstruct.dll",
+        "lib/net452/unoun.dat",
+        "lib/net452/uzu_n.dat",
+        "lib/net452/vcruntime140.dll",
+        "lib/net452/vtdata.bin",
+        "lib/net452/xibrzd.dmd",
+        "lib/net452/xiczhd.dmd",
+        "lib/net452/xidand.dmd",
+        "lib/net452/xidutd.dmd",
+        "lib/net452/xiengd.dmd",
+        "lib/net452/xiengl.bin",
+        "lib/net452/xifind.dmd",
+        "lib/net452/xifrnd.dmd",
+        "lib/net452/xigred.dmd",
+        "lib/net452/xigrmd.dmd",
+        "lib/net452/xihund.dmd",
+        "lib/net452/xiintd.dmd",
+        "lib/net452/xiitld.dmd",
+        "lib/net452/xinrwd.dmd",
+        "lib/net452/xipold.dmd",
+        "lib/net452/xiprtd.dmd",
+        "lib/net452/xispnd.dmd",
+        "lib/net452/xiswdd.dmd",
+        "lib/net452/xiturd.dmd",
+        "lib/net452/xocr.dll",
+        "lib/net452/xocr2.dll",
+        "lib/net452/xocr3.dll",
+        "lib/net452/xocr32b.exe",
+        "lib/net452/xocr4.dll",
+        "lib/net452/xocr5.dll",
+        "lib/net452/xocr6.dll",
+        "lib/net452/zbigramk.dat",
+        "uipath.omnipage.bundle.extended.1.0.0.nupkg.sha512",
+        "uipath.omnipage.bundle.extended.nuspec"
+      ]
+    },
+    "UiPath.Python.Activities/1.1.6863.33404": {
+      "sha512": "I45p4opSWinCChYA1abDzGiWdtrCRtrLGHmax4+4WF24XwhywfMHgi7uo+/VhJRRrzVxoePjBZQWh+zKueFBmg==",
+      "type": "package",
+      "path": "uipath.python.activities/1.1.6863.33404",
+      "files": [
+        ".nupkg.metadata",
+        "lib/local_dep/Local dependencies.zip",
+        "lib/net452/.idea/inspectionProfiles/profiles_settings.xml",
+        "lib/net452/.idea/misc.xml",
+        "lib/net452/.idea/modules.xml",
+        "lib/net452/.idea/net452.iml",
+        "lib/net452/.idea/vcs.xml",
+        "lib/net452/.idea/workspace.xml",
+        "lib/net452/DocumentSummarizer.py",
+        "lib/net452/Graphmaker.py",
+        "lib/net452/MyGraphShow.py",
+        "lib/net452/MyNewsGraphEN.py",
+        "lib/net452/MyNewsGraphJP.py",
+        "lib/net452/UiPath.Python.Activities.Design.dll",
+        "lib/net452/UiPath.Python.Activities.dll",
+        "lib/net452/UiPath.Python.Host.exe",
+        "lib/net452/UiPath.Python.Host32.exe",
+        "lib/net452/UiPath.Python.dll",
+        "lib/net452/__pycache__/Graphmaker.cpython-36.pyc",
+        "lib/net452/__pycache__/MyGraphShow.cpython-36.pyc",
+        "lib/net452/__pycache__/MyNewsGraphEN.cpython-36.pyc",
+        "lib/net452/__pycache__/MyNewsGraphJP.cpython-36.pyc",
+        "lib/net452/__pycache__/keyword.cpython-36.pyc",
+        "lib/net452/__pycache__/simpleTextrank.cpython-36.pyc",
+        "lib/net452/__pycache__/text_summary.cpython-36.pyc",
+        "lib/net452/basefile.txt",
+        "lib/net452/de/UiPath.Python.Activities.Design.resources.dll",
+        "lib/net452/de/UiPath.Python.Activities.resources.dll",
+        "lib/net452/de/UiPath.Python.resources.dll",
+        "lib/net452/fr/UiPath.Python.Activities.Design.resources.dll",
+        "lib/net452/fr/UiPath.Python.Activities.resources.dll",
+        "lib/net452/fr/UiPath.Python.resources.dll",
+        "lib/net452/ja/UiPath.Python.Activities.Design.resources.dll",
+        "lib/net452/ja/UiPath.Python.Activities.resources.dll",
+        "lib/net452/ja/UiPath.Python.resources.dll",
+        "lib/net452/simpleTextrank.py",
+        "lib/net452/temp.txt",
+        "lib/net452/text_summary.py",
+        "lib/net452/textrank/.git/HEAD",
+        "lib/net452/textrank/.git/config",
+        "lib/net452/textrank/.git/description",
+        "lib/net452/textrank/.git/hooks/applypatch-msg.sample",
+        "lib/net452/textrank/.git/hooks/commit-msg.sample",
+        "lib/net452/textrank/.git/hooks/fsmonitor-watchman.sample",
+        "lib/net452/textrank/.git/hooks/post-update.sample",
+        "lib/net452/textrank/.git/hooks/pre-applypatch.sample",
+        "lib/net452/textrank/.git/hooks/pre-commit.sample",
+        "lib/net452/textrank/.git/hooks/pre-push.sample",
+        "lib/net452/textrank/.git/hooks/pre-rebase.sample",
+        "lib/net452/textrank/.git/hooks/pre-receive.sample",
+        "lib/net452/textrank/.git/hooks/prepare-commit-msg.sample",
+        "lib/net452/textrank/.git/hooks/update.sample",
+        "lib/net452/textrank/.git/index",
+        "lib/net452/textrank/.git/info/exclude",
+        "lib/net452/textrank/.git/logs/HEAD",
+        "lib/net452/textrank/.git/logs/refs/heads/master",
+        "lib/net452/textrank/.git/logs/refs/remotes/origin/HEAD",
+        "lib/net452/textrank/.git/objects/pack/pack-99dd9060d9d80b98198e561e93ecc9c2d48df548.idx",
+        "lib/net452/textrank/.git/objects/pack/pack-99dd9060d9d80b98198e561e93ecc9c2d48df548.pack",
+        "lib/net452/textrank/.git/packed-refs",
+        "lib/net452/textrank/.git/refs/heads/master",
+        "lib/net452/textrank/.git/refs/remotes/origin/HEAD",
+        "lib/net452/textrank/.gitignore",
+        "lib/net452/textrank/.ipynb_checkpoints/SummaJp-checkpoint.ipynb",
+        "lib/net452/textrank/.vscode/settings.json",
+        "lib/net452/textrank/HTMLfiles/aipaper.html",
+        "lib/net452/textrank/HTMLfiles/aipaper.txt",
+        "lib/net452/textrank/HTMLfiles/article.html",
+        "lib/net452/textrank/HTMLfiles/article.txt",
+        "lib/net452/textrank/HTMLfiles/article02.html",
+        "lib/net452/textrank/HTMLfiles/article2.txt",
+        "lib/net452/textrank/HTMLfiles/email.txt",
+        "lib/net452/textrank/HTMLfiles/email01.html",
+        "lib/net452/textrank/HTMLfiles/email01.txt",
+        "lib/net452/textrank/HTMLfiles/email02.txt",
+        "lib/net452/textrank/HTMLfiles/email03.html",
+        "lib/net452/textrank/HTMLfiles/email03.txt",
+        "lib/net452/textrank/HTMLfiles/email04.txt",
+        "lib/net452/textrank/HTMLfiles/email05.html",
+        "lib/net452/textrank/HTMLfiles/email05.txt",
+        "lib/net452/textrank/HTMLfiles/email05Updated.html",
+        "lib/net452/textrank/HTMLfiles/email05mod.html",
+        "lib/net452/textrank/HTMLfiles/email06.txt",
+        "lib/net452/textrank/HTMLfiles/noisy_article.html",
+        "lib/net452/textrank/HTMLfiles/noisy_article.txt",
+        "lib/net452/textrank/HTMLfiles/test.html",
+        "lib/net452/textrank/HTMLfiles/yep.html",
+        "lib/net452/textrank/LICENSE",
+        "lib/net452/textrank/README",
+        "lib/net452/textrank/README.rst",
+        "lib/net452/textrank/SummaJp.ipynb",
+        "lib/net452/textrank/__init__.py",
+        "lib/net452/textrank/__pycache__/__init__.cpython-36.pyc",
+        "lib/net452/textrank/requirements.txt",
+        "lib/net452/textrank/setup.cfg",
+        "lib/net452/textrank/setup.py",
+        "lib/net452/textrank/summa/__init__.py",
+        "lib/net452/textrank/summa/__pycache__/__init__.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/commons.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/graph.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/keywords.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/pagerank_weighted.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/summarizer.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/syntactic_unit.cpython-36.pyc",
+        "lib/net452/textrank/summa/__pycache__/textrank.cpython-36.pyc",
+        "lib/net452/textrank/summa/commons.py",
+        "lib/net452/textrank/summa/exception/__init__.py",
+        "lib/net452/textrank/summa/exception/textrank_runtime_error.py",
+        "lib/net452/textrank/summa/graph.py",
+        "lib/net452/textrank/summa/keywords.py",
+        "lib/net452/textrank/summa/pagerank_weighted.py",
+        "lib/net452/textrank/summa/preprocessing/__init__.py",
+        "lib/net452/textrank/summa/preprocessing/__pycache__/__init__.cpython-36.pyc",
+        "lib/net452/textrank/summa/preprocessing/__pycache__/porter.cpython-36.pyc",
+        "lib/net452/textrank/summa/preprocessing/__pycache__/snowball.cpython-36.pyc",
+        "lib/net452/textrank/summa/preprocessing/__pycache__/stopwords.cpython-36.pyc",
+        "lib/net452/textrank/summa/preprocessing/__pycache__/textcleaner.cpython-36.pyc",
+        "lib/net452/textrank/summa/preprocessing/__pycache__/util.cpython-36.pyc",
+        "lib/net452/textrank/summa/preprocessing/load_model.py",
+        "lib/net452/textrank/summa/preprocessing/porter.py",
+        "lib/net452/textrank/summa/preprocessing/snowball.py",
+        "lib/net452/textrank/summa/preprocessing/stopwords.py",
+        "lib/net452/textrank/summa/preprocessing/textcleaner.py",
+        "lib/net452/textrank/summa/preprocessing/util.py",
+        "lib/net452/textrank/summa/summarizer.py",
+        "lib/net452/textrank/summa/syntactic_unit.py",
+        "lib/net452/textrank/summa/textrank.py",
+        "lib/net452/textrank/test/__init__.py",
+        "lib/net452/textrank/test/test_args.py",
+        "lib/net452/textrank/test/test_data/arabic.txt",
+        "lib/net452/textrank/test/test_data/few_distinct_words.txt",
+        "lib/net452/textrank/test/test_data/mihalcea_tarau.kw.txt",
+        "lib/net452/textrank/test/test_data/mihalcea_tarau.summ.txt",
+        "lib/net452/textrank/test/test_data/mihalcea_tarau.sw.txt",
+        "lib/net452/textrank/test/test_data/mihalcea_tarau.swkw.txt",
+        "lib/net452/textrank/test/test_data/mihalcea_tarau.txt",
+        "lib/net452/textrank/test/test_data/polish.txt",
+        "lib/net452/textrank/test/test_data/repeated_keywords.txt",
+        "lib/net452/textrank/test/test_data/spanish.txt",
+        "lib/net452/textrank/test/test_data/unrelated.txt",
+        "lib/net452/textrank/test/test_keywords.py",
+        "lib/net452/textrank/test/test_summarizer.py",
+        "lib/net452/textrank/test/utils.py",
+        "lib/net452/textsumTest.ipynb",
+        "lib/net452/x64/Python.Runtime.35.dll",
+        "lib/net452/x64/Python.Runtime.36.dll",
+        "lib/net452/x86/Python.Runtime.27.dll",
+        "lib/net452/x86/Python.Runtime.33.dll",
+        "lib/net452/x86/Python.Runtime.34.dll",
+        "lib/net452/x86/Python.Runtime.35.dll",
+        "lib/net452/x86/Python.Runtime.36.dll",
+        "uipath.python.activities.1.1.6863.33404.nupkg.sha512",
+        "uipath.python.activities.nuspec"
+      ]
+    },
+    "UiPath.System.Activities/20.2.0-preview": {
+      "sha512": "W8HSmSAlSyn7yMzCkHu5yl1Yp7FaThlLWSwk0VtmUGz3KCsvzJd94g11I9N+98aA2aj1B2qokwWQEI166jLJjA==",
+      "type": "package",
+      "path": "uipath.system.activities/20.2.0-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "lib/net461/CustomInputForm.exe",
+        "lib/net461/UiPath.OrchestratorClient.dll",
+        "lib/net461/UiPath.System.Activities.Design.dll",
+        "lib/net461/UiPath.System.Activities.dll",
+        "lib/net461/de/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.System.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.System.Activities.resources.dll",
+        "lib/net461/es/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.System.Activities.resources.dll",
+        "lib/net461/fr/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.System.Activities.resources.dll",
+        "lib/net461/ja/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.System.Activities.resources.dll",
+        "lib/net461/ko/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.System.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.System.Activities.resources.dll",
+        "lib/net461/pt/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.System.Activities.resources.dll",
+        "lib/net461/ru/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.System.Activities.resources.dll",
+        "lib/net461/tr/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.System.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.System.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.System.Activities.resources.dll",
+        "uipath.system.activities.20.2.0-preview.nupkg.sha512",
+        "uipath.system.activities.nuspec"
+      ]
+    },
+    "UiPath.UIAutomation.Activities/20.2.0-preview": {
+      "sha512": "ZLf3day6usTzkwkxL2ACGI3nq+zfLDknTa/gZUgX01impRH5bNdSqIOgqe32Lf+/LdmHPzEwUaplUW9qhlVcLQ==",
+      "type": "package",
+      "path": "uipath.uiautomation.activities/20.2.0-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "build/ActiproSoftware.Docking.Wpf.dll",
+        "build/ActiproSoftware.Editors.Wpf.dll",
+        "build/ActiproSoftware.Ribbon.Wpf.dll",
+        "build/ActiproSoftware.Shared.Wpf.dll",
+        "build/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "build/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "build/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "build/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "build/ActiproSoftware.Text.Wpf.dll",
+        "build/ActiproSoftware.Wizard.Wpf.dll",
+        "build/ICSharpCode.AvalonEdit.dll",
+        "build/System.ValueTuple.dll",
+        "build/UiExplorer.exe",
+        "build/UiExplorer.exe.config",
+        "build/UiExplorer_x64.exe",
+        "build/UiExplorer_x64.exe.config",
+        "build/UiPath.Activities.Contracts.dll",
+        "build/UiPath.UIAutomation.Activities.Design.dll",
+        "build/UiPath.UiAutomation.Activities.dll",
+        "build/de/UiExplorer.resources.dll",
+        "build/de/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/de/UiPath.UiAutomation.Activities.resources.dll",
+        "build/es-MX/UiExplorer.resources.dll",
+        "build/es-MX/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/es-MX/UiPath.UiAutomation.Activities.resources.dll",
+        "build/es/UiExplorer.resources.dll",
+        "build/es/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/es/UiPath.UiAutomation.Activities.resources.dll",
+        "build/fr/UiExplorer.resources.dll",
+        "build/fr/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/fr/UiPath.UiAutomation.Activities.resources.dll",
+        "build/ja/UiExplorer.resources.dll",
+        "build/ja/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/ja/UiPath.UiAutomation.Activities.resources.dll",
+        "build/ko/UiExplorer.resources.dll",
+        "build/ko/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/ko/UiPath.UiAutomation.Activities.resources.dll",
+        "build/pt-BR/UiExplorer.resources.dll",
+        "build/pt-BR/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/pt-BR/UiPath.UiAutomation.Activities.resources.dll",
+        "build/pt/UiExplorer.resources.dll",
+        "build/pt/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/pt/UiPath.UiAutomation.Activities.resources.dll",
+        "build/ru/UiExplorer.resources.dll",
+        "build/ru/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/ru/UiPath.UiAutomation.Activities.resources.dll",
+        "build/tr/UiExplorer.resources.dll",
+        "build/tr/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/tr/UiPath.UiAutomation.Activities.resources.dll",
+        "build/zh-CN/UiExplorer.resources.dll",
+        "build/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "build/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "lib/net461/UiPath.CV.Activities.Design.dll",
+        "lib/net461/UiPath.CV.Activities.dll",
+        "lib/net461/UiPath.CV.dll",
+        "lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "lib/net461/UiPath.UiAutomation.Activities.dll",
+        "lib/net461/UiPath.Wizards.dll",
+        "lib/net461/de/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.CV.Activities.resources.dll",
+        "lib/net461/de/UiPath.CV.resources.dll",
+        "lib/net461/de/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/de/UiPath.Wizards.resources.dll",
+        "lib/net461/es-MX/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.CV.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.CV.resources.dll",
+        "lib/net461/es-MX/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Wizards.resources.dll",
+        "lib/net461/es/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.CV.Activities.resources.dll",
+        "lib/net461/es/UiPath.CV.resources.dll",
+        "lib/net461/es/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/es/UiPath.Wizards.resources.dll",
+        "lib/net461/fr/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.CV.Activities.resources.dll",
+        "lib/net461/fr/UiPath.CV.resources.dll",
+        "lib/net461/fr/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Wizards.resources.dll",
+        "lib/net461/ja/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.CV.Activities.resources.dll",
+        "lib/net461/ja/UiPath.CV.resources.dll",
+        "lib/net461/ja/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Wizards.resources.dll",
+        "lib/net461/ko/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.CV.Activities.resources.dll",
+        "lib/net461/ko/UiPath.CV.resources.dll",
+        "lib/net461/ko/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Wizards.resources.dll",
+        "lib/net461/pt-BR/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.CV.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.CV.resources.dll",
+        "lib/net461/pt-BR/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Wizards.resources.dll",
+        "lib/net461/pt/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.CV.Activities.resources.dll",
+        "lib/net461/pt/UiPath.CV.resources.dll",
+        "lib/net461/pt/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Wizards.resources.dll",
+        "lib/net461/ru/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.CV.Activities.resources.dll",
+        "lib/net461/ru/UiPath.CV.resources.dll",
+        "lib/net461/ru/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Wizards.resources.dll",
+        "lib/net461/tr/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.CV.Activities.resources.dll",
+        "lib/net461/tr/UiPath.CV.resources.dll",
+        "lib/net461/tr/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Wizards.resources.dll",
+        "lib/net461/zh-CN/UiPath.CV.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.CV.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.CV.resources.dll",
+        "lib/net461/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Wizards.resources.dll",
+        "uipath.uiautomation.activities.20.2.0-preview.nupkg.sha512",
+        "uipath.uiautomation.activities.nuspec"
+      ]
+    },
+    "UiPath.Vision/2.0.1": {
+      "sha512": "EvjuMFSCQG0lAC0Grf7GGETnnlO1gytIH8WXZtFLuGYlJlySqhx6IRG5aBhLLQV7nOqcJiVCIh9wF+jo8tnS/A==",
+      "type": "package",
+      "path": "uipath.vision/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/AForge.Imaging.dll",
+        "build/AForge.Math.dll",
+        "build/AForge.dll",
+        "build/BouncyCastle.Crypto.dll",
+        "build/Emgu.CV.World.dll",
+        "build/Google.Api.CommonProtos.dll",
+        "build/Google.Api.Gax.Grpc.dll",
+        "build/Google.Api.Gax.dll",
+        "build/Google.Apis.Auth.PlatformServices.dll",
+        "build/Google.Apis.Auth.dll",
+        "build/Google.Apis.Core.dll",
+        "build/Google.Apis.PlatformServices.dll",
+        "build/Google.Apis.dll",
+        "build/Google.Cloud.Vision.V1.dll",
+        "build/Google.LongRunning.dll",
+        "build/Google.Protobuf.dll",
+        "build/Grpc.Auth.dll",
+        "build/Grpc.Core.dll",
+        "build/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "build/Microsoft.ProjectOxford.Vision.dll",
+        "build/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "build/Microsoft.Rest.ClientRuntime.dll",
+        "build/NLog.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Collections.Immutable.dll",
+        "build/System.Interactive.Async.dll",
+        "build/System.ValueTuple.dll",
+        "build/UiPath.OCR.Contracts.dll",
+        "build/UiPath.Vision.AzureComputerVision.dll",
+        "build/UiPath.Vision.Core.dll",
+        "build/UiPath.Vision.GoogleCloud.dll",
+        "build/UiPath.Vision.Host32.exe",
+        "build/UiPath.Vision.Host32.exe.config",
+        "build/UiPath.Vision.Microsoft.dll",
+        "build/UiPath.Vision.MicrosoftCloud.dll",
+        "build/UiPath.Vision.Tesseract.dll",
+        "build/UiPath.Vision.dll",
+        "build/ZedGraph.dll",
+        "build/Zlib.Portable.dll",
+        "build/grpc_csharp_ext.x64.dll",
+        "build/grpc_csharp_ext.x86.dll",
+        "build/nlog.config",
+        "build/tessdata/eng.traineddata",
+        "build/x86/concrt140.dll",
+        "build/x86/cvextern.dll",
+        "build/x86/msvcp140.dll",
+        "build/x86/opencv_ffmpeg341.dll",
+        "build/x86/tbb.dll",
+        "build/x86/vcruntime140.dll",
+        "lib/net452/UiPath.Vision.AzureComputerVision.dll",
+        "lib/net452/UiPath.Vision.Core.dll",
+        "lib/net452/UiPath.Vision.GoogleCloud.dll",
+        "lib/net452/UiPath.Vision.Host32.exe",
+        "lib/net452/UiPath.Vision.Microsoft.dll",
+        "lib/net452/UiPath.Vision.MicrosoftCloud.dll",
+        "lib/net452/UiPath.Vision.Tesseract.dll",
+        "lib/net452/UiPath.Vision.dll",
+        "uipath.vision.2.0.1.nupkg.sha512",
+        "uipath.vision.nuspec"
+      ]
+    },
+    "UiPath.WebAPI.Activities/1.4.4": {
+      "sha512": "hiFcAzMlNw+qcAYCC78JxB82uxmocSFmzLeASj5+2m+yE6FdHQP6m97eyd1rgesk/JPdIU3EIeoqRTszttTAlg==",
+      "type": "package",
+      "path": "uipath.webapi.activities/1.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/UiPath.Web.Activities.Design.dll",
+        "lib/net452/UiPath.Web.Activities.dll",
+        "lib/net452/UiPath.Web.dll",
+        "lib/net452/de/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/de/UiPath.Web.Activities.resources.dll",
+        "lib/net452/de/UiPath.Web.resources.dll",
+        "lib/net452/es-MX/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/es-MX/UiPath.Web.Activities.resources.dll",
+        "lib/net452/es-MX/UiPath.Web.resources.dll",
+        "lib/net452/es/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/es/UiPath.Web.Activities.resources.dll",
+        "lib/net452/es/UiPath.Web.resources.dll",
+        "lib/net452/fr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/fr/UiPath.Web.Activities.resources.dll",
+        "lib/net452/fr/UiPath.Web.resources.dll",
+        "lib/net452/ja/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/ja/UiPath.Web.Activities.resources.dll",
+        "lib/net452/ja/UiPath.Web.resources.dll",
+        "lib/net452/ko/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/ko/UiPath.Web.Activities.resources.dll",
+        "lib/net452/ko/UiPath.Web.resources.dll",
+        "lib/net452/pt-BR/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/pt-BR/UiPath.Web.Activities.resources.dll",
+        "lib/net452/pt-BR/UiPath.Web.resources.dll",
+        "lib/net452/pt/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/pt/UiPath.Web.Activities.resources.dll",
+        "lib/net452/pt/UiPath.Web.resources.dll",
+        "lib/net452/ru/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/ru/UiPath.Web.Activities.resources.dll",
+        "lib/net452/ru/UiPath.Web.resources.dll",
+        "lib/net452/tr/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/tr/UiPath.Web.Activities.resources.dll",
+        "lib/net452/tr/UiPath.Web.resources.dll",
+        "lib/net452/zh-CN/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net452/zh-CN/UiPath.Web.Activities.resources.dll",
+        "lib/net452/zh-CN/UiPath.Web.resources.dll",
+        "uipath.webapi.activities.1.4.4.nupkg.sha512",
+        "uipath.webapi.activities.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6.1": [
+      "UiPath.Excel.Activities >= 2.7.2 <= 2.7.2",
+      "UiPath.Form.Activities >= 1.0.0 <= 1.0.0",
+      "UiPath.Mail.Activities >= 1.7.2 <= 1.7.2",
+      "UiPath.OmniPage.Activities >= 1.4.0-preview <= 1.4.0-preview",
+      "UiPath.OmniPage.Bundle.Extended >= 1.0.0 <= 1.0.0",
+      "UiPath.Python.Activities >= 1.1.6863.33404 <= 1.1.6863.33404",
+      "UiPath.System.Activities >= 20.2.0-preview <= 20.2.0-preview",
+      "UiPath.UIAutomation.Activities >= 20.2.0-preview <= 20.2.0-preview",
+      "UiPath.WebAPI.Activities >= 1.4.4 <= 1.4.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pablomorales\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "OCR_testing_tool",
+      "projectName": "OCR_testing_tool",
+      "projectPath": "\\\\mac\\Home\\Documents\\UiPath\\OCR_testing_tool\\project_folder\\.local",
+      "packagesPath": "C:\\Users\\pablomorales\\.nuget\\packages\\",
+      "outputPath": "\\\\mac\\Home\\Documents\\UiPath\\OCR_testing_tool\\project_folder\\.local"
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "UiPath.Excel.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.7.2, 2.7.2]"
+          },
+          "UiPath.Form.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
+          "UiPath.Mail.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.7.2, 1.7.2]"
+          },
+          "UiPath.OmniPage.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.0-preview, 1.4.0-preview]"
+          },
+          "UiPath.OmniPage.Bundle.Extended": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
+          "UiPath.Python.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.6863.33404, 1.1.6863.33404]"
+          },
+          "UiPath.System.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[20.2.0-preview, 20.2.0-preview]"
+          },
+          "UiPath.UIAutomation.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[20.2.0-preview, 20.2.0-preview]"
+          },
+          "UiPath.WebAPI.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.4, 1.4.4]"
+          }
+        }
+      }
+    }
+  }
+}

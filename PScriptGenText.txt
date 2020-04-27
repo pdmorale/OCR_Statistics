@@ -1,0 +1,25 @@
+# Directory of the python file to compile: $DirPyFile
+# Directory of python3 with dependencies: $DirPyEnv
+# it contains argsparse input if chosen at Studio
+
+Param(
+
+    [Parameter(Mandatory=$true)] [string]$DirPyFile,
+    [Parameter(Mandatory=$true)] [string]$DirPyEnv,
+
+    [Parameter(Mandatory=$true)]
+    [AllowEmptyString()] <#-- Allow for default #>
+    [string]$Args
+
+   )
+
+cd $DirPyFile
+if ($?) {
+	if ($Args) {
+		echo 'args not null'
+		 Start-Process -FilePath $DirPyEnv -ArgumentList "run.py",$Args	
+	} else {
+		echo 'running default'
+		Start-Process $DirPyEnv run.py
+	}
+}
