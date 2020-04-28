@@ -1,6 +1,6 @@
 # OCR Statistics tool
 
-A repository that fascilitates the extraction of statistics from a given OCR engines. This is a UiPath Studio and Python project which targets the Studio built-in engines, however, feel free any custom engine by modifying the powershell script. At its core, this workflow generates synthetic data according to a given set of parameters and evaluates OCR engine resilience to the effects by computing the similarity of the outcome and what it should read through its [Levishtein measure](https://en.wikipedia.org/wiki/Levenshtein_distance). And ultimately allows you to a graph the resilience to a given feature.
+A repository that fascilitates the extraction of statistics from a given OCR engines. This is a UiPath Studio and Python project which targets the Studio built-in engines, however, feel free any custom engine by modifying the powershell script. At its core, this workflow generates synthetic data according to a given set of parameters and evaluates OCR engine resilience to the effects by computing the similarity of the outcome and what it should read through its [Levenshtein measure](https://en.wikipedia.org/wiki/Levenshtein_distance). And ultimately allows you to a graph the resilience to a given feature.
 
 ## Getting Started
 
